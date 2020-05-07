@@ -1,0 +1,171 @@
+[
+  
+    {
+      "title"       : "Uncertainty Of Reconstructions By Plate Id",
+      "date"        : "2020-01-22 00:00:00 -0600",
+      "categories"  : "surface processes",
+      "by"          : "Ben R. Mather - EarthByte Group, The University of Sydney",
+      "url"         : "/Uncertainty-of-Reconstructions-by-Plate-ID/",
+      "icon"        : "globe",
+      "keywords"    : "pyGPlates, stripy",
+      "description" : {"url":"https://www.earthbyte.org/BGH_Wordpress/wp-content/uploads/2020/01/PlateID_assignment_unstructured.png","description":"We seed a bunch of points on the sphere using the legendary spherical meshing package, stripy (https://www.github.com/underworldcode/stripy), that remain static through time as we query the plate ID at each lat/lon coordinate through time using pyGPlates. Iterating through a wide selection of plate reconstructions, we determine where on the sphere the plate IDs match and where they do not. A score is kept for how many reconstructions have contradicting plate IDs - i.e. if a point at 142,35 (lon/lat) has a different plate ID for 3 reconstructions, then it is assigned an uncertainty rating of 3."},
+      "citation"    : "Ben R. Mather, 2020:",
+      "contact"     : ""
+
+    } ,
+  
+    {
+      "title"       : "Public Copy Of Gulf Of Papua",
+      "date"        : "2019-11-28 00:00:00 -0600",
+      "categories"  : "surface processes",
+      "by"          : "Rhiannon Garrett",
+      "url"         : "/Public-copy-of-gulf-of-papua/",
+      "icon"        : "globe",
+      "keywords"    : "",
+      "description" : {"url":"https://www.earthbyte.org/BGH_Wordpress/wp-content/uploads/2019/08/Initial_setup.png","description":"The initial setup approximates the paleotopography by subtracting the vertical movement field from the present day topography. The Lambeck et al. (2014) sea level curve is applied to the simulation for the past 35 kyr. A) The present day topography, B) the magnitude of surface uplift and subsidence over the past 35 kyr, C) the paleotopography at 35 Ka and D) present day precipitation rates."},
+      "citation"    : "",
+      "contact"     : ""
+
+    } ,
+  
+    {
+      "title"       : "S2s Stratigraphicmodelling",
+      "date"        : "2019-11-08 00:00:00 -0600",
+      "categories"  : "Depositional",
+      "by"          : "Xuesong Ding, Tristan Salles, Nicolas Flament, Patrice Rey",
+      "url"         : "/S2S-StratigraphicModelling/",
+      "icon"        : "globe",
+      "keywords"    : "Badlands, Stratigraphic modelling, Source-to-sink",
+      "description" : {"url":"https://www.earthbyte.org/BGH_Wordpress/wp-content/uploads/2019/11/S2S-Initial-Setting.pdf","description":"Model setup of a source-to-sink generic case. (a) The initial surface consisting of the mountain range (source area), alluvial plain (transfer zone) and continental margin (sink area). (b) Eustatic sea level and its rate of change over 30 Myr. (c) Distance-dependent stretching factor and the resulting thermal subsidence at 10, 20 and 30 Myr across the continental margin."},
+      "citation"    : "Ding, X., Salles, T., Flament, N., and Rey, P.: Quantitative stratigraphic analysis in a source-to-sink numerical framework, Geosci. Model Dev., 12, 2571–2585, https://doi.org/10.5194/gmd-12-2571-2019, 2019.",
+      "contact"     : "Xuesong Ding (xuesong.ding@epss.ucla.edu)"
+
+    } ,
+  
+    {
+      "title"       : "S2s Dyntopo",
+      "date"        : "2019-11-08 00:00:00 -0600",
+      "categories"  : "Depositional",
+      "by"          : "Xuesong Ding, Tristan Salles, Nicolas Flament, Claire Mallard, Patrice Rey",
+      "url"         : "/S2S-DynTopo/",
+      "icon"        : "globe",
+      "keywords"    : "Badlands, Dynamic topography, Stratigraphic modelling, Source-to-sink",
+      "description" : {"url":"https://www.earthbyte.org/BGH_Wordpress/wp-content/uploads/2019/11/S2S-DynTopo-InitialSurface.jpg","description":"Model setup of a generic case showing a wave of positive dynamic topography migrating under a fixed circular continent. The circular continent is 700 km in diameter with a spatial resolution of 1 km. Its initial landscape of the continent consists of a central plateau (source area) surrounded by an alluvial plain (transfer zone) and a continental margin (sink area). A sinusoidal wave of positive dynamic topography with a wavelength of 1000 km and amplitude of 300 m propagating to the west at 5 cm/yr is considered."},
+      "citation"    : "Submitted to Geophysics Research Letter",
+      "contact"     : "Xuesong Ding (xuesong.ding@epss.ucla.edu)"
+
+    } ,
+  
+    {
+      "title"       : "Gulf Of Papua",
+      "date"        : "2019-10-29 00:00:00 -0500",
+      "categories"  : "surface processes",
+      "by"          : "Rhiannon Garrett",
+      "url"         : "/gulf-of-papua/",
+      "icon"        : "globe",
+      "keywords"    : "",
+      "description" : {"url":"https://www.earthbyte.org/BGH_Wordpress/wp-content/uploads/2019/08/Initial_setup.png","description":"The initial setup approximates the paleotopography by subtracting the vertical movement field from the present day topography. The Lambeck et al. (2014) sea level curve is applied to the simulation for the past 35 kyr. A) The present day topography, B) the magnitude of surface uplift and subsidence over the past 35 kyr, C) the paleotopography at 35 Ka and D) present day precipitation rates."},
+      "citation"    : "",
+      "contact"     : ""
+
+    } ,
+  
+    {
+      "title"       : "Gippsland Basin",
+      "date"        : "2019-09-26 00:00:00 -0500",
+      "categories"  : "Depositional & Tectonic",
+      "by"          : "Xuemei(Linda) Yang, Greg Smith",
+      "url"         : "/Gippsland-Basin/",
+      "icon"        : "globe",
+      "keywords"    : "",
+      "description" : {"url":"https://www.earthbyte.org/BGH_Wordpress/wp-content/uploads/2019/09/model-setup.jpg","description":"The thickness maps are input as burial displacement maps to simulate extension/subsidence history. The input maps are generated from the 3D realistic Petrel model.  This model is based on seismic interpretation of all the open file 3D and 2D seismic surveys and correlation of over 250 offshore wells and more than 1000 onshore wells or bores. The interpreted seismic surfaces and well data are used to create thickness maps between the main horizons (e.g. topography, mid Miocene, top Latrobe Group, base Tertiary, top Strzelecki Group, top Basement)."},
+      "citation"    : "",
+      "contact"     : "xuemei.yang@postgrad.curtin.edu.au ; gregory.c.smith@curtin.edu.au"
+
+    } ,
+  
+    {
+      "title"       : "Australia Wide Coupled Model Since Jurassic",
+      "date"        : "2019-09-09 00:00:00 -0500",
+      "categories"  : "surface processes",
+      "by"          : "Laura Harrington, S. Zahirovic, T. Salles, C. Braz & R.D. Müller",
+      "url"         : "/Australia-wide-coupled-model-since-Jurassic/",
+      "icon"        : "globe",
+      "keywords"    : "",
+      "description" : {"url":"https://www.earthbyte.org/BGH_Wordpress/wp-content/uploads/2019/09/aus040_ED_res_PT.jpg","description":"Plate tectonic reconstructions This study coupled global plate tectonic reconstructions provided by Müller et al. (2016) with mantle flow experiments to model the evolving mantle structure for the post-Pangea timeframe. In addition to incorporating relative motion between plates, the tectonic reconstructions presented here use a hybrid absolute reference frame based on a moving hotspot model from Torsvik et al. (2008) from 0–70 Ma, and a true polar wander corrected paleomagnetic model from Steinberger & Torsvik (2008) for older times, allowing for a 35 Myr transition period (70–105 Ma) from one reference frame to the other (Müller et al., 2016). A key feature of these plate reconstructions is the algorithm that generates time-evolving and topologically-closed plate polygons (Gurnis et al., 2012). These global plate topologies were used to sample the plate velocity field, which was imposed on the surface of the global mantle flow experiments (Gurnis et al., 2012)."},
+      "citation"    : "HARRINGTON, L., ZAHIROVIC, S., SALLES, T., BRAZ, C. &amp; MüLLER, R.D., 2019, Tectonic, geodynamic and surface process driving forces of Australia’s paleogeography since the Jurassic, in KEEP, M. &amp; MOSS, S.J. (Eds), The Sedimentary Basins of Western Australia V: Proceedings of the Petroleum Exploration Society of Australia Symposium, Perth, WA, 2019, 29 pp. https://www.pesa.com.au/library/harrington-final-pdf/",
+      "contact"     : ""
+
+    } ,
+  
+    {
+      "title"       : "Pull Apart Basins",
+      "date"        : "2019-09-08 00:00:00 -0500",
+      "categories"  : "Coupled",
+      "by"          : "Patrice F. Rey, Tristan Salles, Claire Mallard, Luke Hardiman, Romain Beucher - BGH and Earthbyte Research Group, The University of Sydney, patrice.rey@sydney.edu.au",
+      "url"         : "/Pull-Apart-Basins/",
+      "icon"        : "globe",
+      "keywords"    : "",
+      "description" : {"url":"https://www.earthbyte.org/BGH_Wordpress/wp-content/uploads/2019/09/PA00xBC.png","description":"Pull apart is an ideal tectonic setting to test the coupling between tectonic processes and surface processes. In this setting, lithospheric thinning can be extreme and localized, leading to very deep basins and thick accumulation of sediments. We hypothesise that the redistribution of surface load from source-to-sink modulates the stress field in the upper crust where faults and fractures initiate and control the architecture of sedimentary basins. In this suite of experiments, we compare the same experiment with and without surface processes, and we consider a variety of scenario varying sea-level (-200m, -500m, -800m with respect to the position of the surface of the crust), and the rheology of the lithosphere. The dimension of the model is 384x256x128 km. It includes 8 km of air-like material, 40 km of crust (upper crust is in blue, lower crust in orange), 60 km of lithospheric mantle (green), and 20 km of asthenosphere (blue). Two vertical and parallel master faults are embedded into the lithosphere in the form of two pre-damaged prism with dimension 192x25x95 km, extending from 5 km below the surface of the crust down to base of the lithosphere. The damage inside these prisms follows a gaussian with peak damage in the center of the prism along the X and Y axes. These two faults are non-overlapping. Their walls and tips are separated by a gap of 48 km and 0 km respectively (see Figure above). A kinematic boundary condition designed to promote transcurrent tectonics is imposed on the two vertical walls normal to the X direction. The velocity component along X is ±1.92 cm/yr (see Figure), and we impose a velocity component along Z of 0.025 cm/yr to prevent rivers to fall off the grid. A free slip condition is attached to the base of the model and to the two vertical walls parallel to the direction of motion. A pseudo-isostatic boundary condition is imposed at the base of the model. Models are run for 10 myr. We have run this experiment using three numerical framework: Underworld 1.8, Underworld Geodynamics, and Badlands-Underworld Geodynamics. The Underworld 1.8 outputs were used to extract the velocity field close to the crust surface, and pass it into Badlands. The outcome of this \"one way coupling\" is presented in Luke Hardiman Honours thesis."},
+      "citation"    : "Rey, Salles, Mallard, Hardiman and Beucher 2019:",
+      "contact"     : "patrice.rey@sydney.edu.au"
+
+    } ,
+  
+    {
+      "title"       : "Mcclay Style",
+      "date"        : "2019-09-08 00:00:00 -0500",
+      "categories"  : "Tectonic",
+      "by"          : "Patrice F. Rey - BGH and Earthbyte Research Group, The University of Sydney, patrice.rey@sydney.edu.au",
+      "url"         : "/McClay-style/",
+      "icon"        : "globe",
+      "keywords"    : "",
+      "description" : {"url":"https://www.earthbyte.org/BGH_Wordpress/wp-content/uploads/2019/09/McClay_InternalCondition-1.png","description":"This suite of experiments is inspired by similar sandbox analog models from Kent McClay. Here, the aim is to develop an Underworld 2D template capable of matching the modelling outcomes of the best sandbox experiments. Our template represents a domain 144 km long and 36 km deep, the top 12 km of which is made of air-like material. There is 16 km of sedimentary rocks (pre-rift sequence) distributed over 10 layers, the top 10 are 1.5 km thick. Underneath, there is 8 km of stronger rocks (i.e. larger cohesion and coefficient of friction). We include a salt-like layer (constant density 2000 kg/m3, viscosity 1e19 Pa.s), either at the surface of the model, or within top section of the pre-rift sequence. The density of the sediments increases with depth either incrementaly or following a dependence on the confining pressure to simulate compaction. During extension, the progressive burial of the salt layer under sediments of increasing density results in a density inversion. In some models we impose a pseudo-isostatic condition at the base of the model, to maintain the lithostatic pressure constant. The wall to the right moves away at 2 cm/yr. To mimic sandbox kinematic boundary conditions, we i/ turn off the isostasy, ii/ impose a constant velocity at the base of the model, as well as on the vertical wall on the left where it meets with the lower basal layer, and iii/ we add a thin, low viscosity layer, to decouple the sedimentary sequence from the backstop and the bottom layer."},
+      "citation"    : "Patrice F. Rey, 2019:",
+      "contact"     : ""
+
+    } ,
+  
+    {
+      "title"       : "2t Rift Coupled",
+      "date"        : "2019-07-30 00:00:00 -0500",
+      "categories"  : "coupled",
+      "by"          : "Romain Beucher",
+      "url"         : "/2T-rift-coupled/",
+      "icon"        : "globe",
+      "keywords"    : "",
+      "description" : {"url":"https://www.earthbyte.org/BGH_Wordpress/wp-content/uploads/2019/07/Beucher_2T_rift_setup.png","description":"Model geometry showing crust and mantle lithosphere layer viscosities"},
+      "citation"    : "",
+      "contact"     : ""
+
+    } ,
+  
+    {
+      "title"       : "Point Source Delta",
+      "date"        : "2019-07-29 00:00:00 -0500",
+      "categories"  : "surface processes",
+      "by"          : "Sara Morón",
+      "url"         : "/point-source-delta/",
+      "icon"        : "globe",
+      "keywords"    : "",
+      "description" : {"url":"https://www.earthbyte.org/BGH_Wordpress/wp-content/uploads/2019/07/Delta_setup.jpg","description":"The initial configuration of the modeling domain resembles the topography of a natural source to sink system with relief on the headwaters, a decrease in slope on the continental plain and successive changes on the gradient of the continental shelf and the continental slope. To ensure that our simulations mimic a funnel-like drainage basin shape in the continental domain and sediment is delivered to the marine domain through a point-source we imposed a longitudinal topographic low in the middle of the modeling domain."},
+      "citation"    : "",
+      "contact"     : ""
+
+    } ,
+  
+    {
+      "title"       : "Continental Accretion",
+      "date"        : "2019-07-29 00:00:00 -0500",
+      "categories"  : "tectonic",
+      "by"          : "L. Moresi, P. G. Betts, M. S. Miller & R. A. Cayley",
+      "url"         : "/continental-accretion/",
+      "icon"        : "globe",
+      "keywords"    : "continental, dazam",
+      "description" : {"url":"https://www.earthbyte.org/BGH_Wordpress/wp-content/uploads/2019/07/Moresi__et_al_2014_setup.jpg","description":"Initial geometry of the distinct material domains in the numerical model, not to scale. The subducting plate is 100km thick, 3,000kmwide and 7,000kmin length, and is built from 4 layers. The overriding plate has three domains: a back-arc region (1,200 km) a transitional region (350 km) and a continental backstop (750 km), each of which comprises two layers of equal thickness. The indenting ribbon is 50km in thickness, 1,500km wide and 500km deep (perpendicular to the convergence direction). Each of the vertical boundaries is a symmetry plane."},
+      "citation"    : "https://www.nature.com/articles/nature13033",
+      "contact"     : ""
+
+    } 
+  
+]
