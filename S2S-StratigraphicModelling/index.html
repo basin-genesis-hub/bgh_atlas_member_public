@@ -1,444 +1,56 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>S2s Stratigraphicmodelling</title>
-
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/the-grid-flexbox@2.0.1/css/the-grid.min.css">
-  <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
-  <link rel="stylesheet" href="/css/main.css">
-
-  <link rel="shortcut icon" href="/assets/img/BasinGenesisHub.png">
-  <link rel="icon" href="/assets/img/BasinGenesisHub.png">
-
-  <!-- facebook -->
-  <meta property="og:title" content="BGH Atlas" />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="" />
-  <meta property="og:description" content="The Atlas is a top-level visual summary of end-member numerical models that the BGH is created." />
-  <meta property="og:site_name" content="BGH Atlas" />
-  <meta property="og:image" content="/assets/img/image.png" />
-  <meta property="fb:app_id" content="1154262757941899" />
-  <meta property="fb:admins" content="100002787447461" />
-  <!-- facebook -->
-
-  <!-- twitter -->
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="BGH Atlas">
-  <meta name="twitter:description" content="The Atlas is a top-level visual summary of end-member numerical models that the BGH is created.">
-  <meta name="twitter:creator" content="EarthByteGroup">
-  <meta name="twitter:image" content="/assets/img/image.png">
-  <meta itemprop="name" content="BGH Atlas">
-  <meta itemprop="description" content="The Atlas is a top-level visual summary of end-member numerical models that the BGH is created.">
-  <meta itemprop="image" content="/assets/img/image.png">
-  <!-- twitter -->
-</head>
-
-
-<body>
-  <div class="">
-    <div class="menu">
-  <div class="size margin menu--content container align-items-center justify-content-between">
-
-    <div class="" data-aos="fade-right" data-aos-delay="" data-aos-offset="0">
-      <a href="/"><img border="0" alt="BGH" src="/assets/img/BasinGenesisHub.png" width="200" height="40"/></a>
-      <a href="/">BGH Atlas</a>
-    </div>
-
-    <a href="" data-aos="fade-left" data-aos-delay="" data-aos-offset="0">
-      <div class="container align-items-baseline back-to-site">
-        <div class="">
-          <span class="feather-icon icon-external-link"></span>
-        </div>
-        <div class="back-to-site-text">
-          <a href="https://members.atlas.bgh.org.au//">Private Atlas</a>
-          
-        </div>
-      </div>
-    </a>
-
-    <a href="" data-aos="fade-left" data-aos-delay="" data-aos-offset="0">
-      <div class="container align-items-baseline back-to-site">
-        <div class="">
-          <span class="feather-icon icon-external-link"></span>
-        </div>
-        <div class="back-to-site-text">
-          <a href="http://bgh.org.au//">Back to BGH website</a>
-          
-        </div>
-      </div>
-    </a>
-    <!-- <nav class="masthead-nav">
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-    </nav> -->
-  </div>
+      <div><strong>TODO: Make this page prettier</strong></div>
+<br>
+<div id="loginForm">
+    <span>Enter your github personal access token:</span>
+    <form onsubmit="event.preventDefault(); onSubmit(this);">
+        <input type="text" id="access-token" name="Access Token" placeholder="Github personal access token" required>
+        <input type="submit" value="Access">
+    </form>
 </div>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+</script>
 
-    
+<script>
 
+//LOOK HERE!!
+//CHANGE US!!
+const org = 'basin-genesis-hub';
+const repo = 'bgh_atlas_member_private';
+const branch = 'master';
+const page = '_site/S2S-StratigraphicModelling/index.html';
+////////////////////////////////
 
+var old_token  = JSON.parse(localStorage.getItem('bgh_token'));
+if (old_token) {
+    replace_content(old_token.token);
+}
 
-<!-- breadcrumbs -->
-<div class="size margin" data-aos="fade-right" data-aos-delay="100" data-aos-offset="0">
-  
+function onSubmit(form) {
+    replace_content($("#access-token").val());
+    return;
+}
+function replace_content(token){
+    $.ajax({
+        method: "GET",
+        url: 'https://api.github.com/repos/'+org+'/'+repo+'/contents/'+page+'?ref='+branch,
+        headers: {
+                Accept: 'application/json',
+                Authorization: 'token ' + token
+            }
+        })
+        .done(function( data ){
+            const content = data.encoding === 'base64' ? atob(data.content) : data.content;
+            document.open();
+            document.write(content);
+            document.close();
+            localStorage.setItem('bgh_token', JSON.stringify({ 'token': token }));
+            //console.log(data)
+        })
+        .fail(function(){
+            alert("failed!");
+        });
+    return;
+}
+</script>
 
-
-
-
-
-<div class="container wrap breadcrumbs">
-  <a href="/">Home</a>
-  
-  <span class="prompt margin-left-10 margin-right-10">></span>
-  
-  
-  S2s Stratigraphicmodelling
-  
-  
-</div>
-
-</div>
-<!-- breadcrumbs -->
-
-<div class="size margin min-height">
-  <article>
-    <!-- titles -->
-    <h1 class="post-title" data-aos="fade-up" data-aos-delay="200" data-aos-offset="0">Source-to-sink stratigraphic modelling</h1>
-    <div class="post-date" data-aos="fade-left" data-aos-delay="300" data-aos-offset="0">
-      <!-- <time>08 Nov 2019</time> -->
-      <span class="reading-time" title=" Author ">
-      
-        
-          Xuesong Ding, Tristan Salles, Nicolas Flament, Patrice Rey
-        
-      
-      </span>
-    </div>
-    <!-- titles -->
-    <!-- posts -->
-    <div class="">
-      <div class="list-item-2 container wrap-reverse align-items-end justify-content-center" data-aos="fade-up" data-aos-delay="0" data-aos-offset="0">
-<!--         
-        <div class="list-item-2-img flex-basis-300 flex-grow-1" data-aos="fade-up" data-aos-delay="300" data-aos-offset="0">
-          <img src="https://www.earthbyte.org/BGH_Wordpress/wp-content/uploads/2019/11/S2S-Initial-Setting.pdf" width="100%" alt="">
-        </div>
-         -->
-        <div class="flex-basis-400 flex-grow-5">
-          <div class="" data-aos="fade-up" data-aos-delay="300" data-aos-offset="0">
-            <h3 class="list-post-title">
-            Software Used:</h3>
-            <ul>
-            
-            <span><li>Badlands 1.0</li> </span>
-            
-            </ul>
-          </div>
-          <div class="" data-aos="fade-up" data-aos-delay="300" data-aos-offset="0">
-            <span class="list-post-description">
-              <br>
-              
-              <div >
-                <!--  -->
-                <div class="list-item-2-img flex-basis-300 flex-grow-1" data-aos="fade-up" data-aos-delay="300" data-aos-offset="0">
-                <video autoplay loop muted preload="auto" width="720" height="360" controls>
-                  <source src="https://www.earthbyte.org/BGH_Wordpress/wp-content/uploads/2019/11/S2S-Strata.mp4" type="video/mp4">
-                  <source src="https://www.earthbyte.org/BGH_Wordpress/wp-content/uploads/2019/11/S2S-Strata.mp4" type="video/ogg">
-                  <source src="https://www.earthbyte.org/BGH_Wordpress/wp-content/uploads/2019/11/S2S-Strata.mp4" type="video/ogv">
-                  <source src="https://www.earthbyte.org/BGH_Wordpress/wp-content/uploads/2019/11/S2S-Strata.mp4" type="video/webm">
-                  Your browser does not support the video tag.
-                </video>
-                </div>
-              The sedimentary architecture of basin margins reflects the interplay between the rate of change of accommodation creation (dA) and the rate of change of sediment supply (dS). Understanding the quantitative relationship between changes in dA/dS and depositional patterns can help to constrain the contributing factors of the formation of basin margins. This work investigates the development of stratigraphic sequences in a source-to-sink context using Badlands, and proposes quantitative stratigraphic interpretations based on two well-established techniques: the trajectory analysis method (Helland-Hansen & Hampson, 2009) and the accommodation succession method (Neal & Abreu, 2009; Neal et al., 2016).
-              </div>
-              
-              
-              <br>
-
-              
-              <h3 class="list-post-title">
-              Model Setup: <br>
-              </h3>
-              
-              <div class="list-item-2-img flex-basis-300 flex-grow-1" data-aos="fade-up" data-aos-delay="300" data-aos-offset="0">
-              <img src="https://www.earthbyte.org/BGH_Wordpress/wp-content/uploads/2019/11/S2S-Initial-Setting.pdf" width="100%" alt=""/>
-              Model setup of a source-to-sink generic case. (a) The initial surface consisting of the mountain range (source area), alluvial plain (transfer zone) and continental margin (sink area). (b) Eustatic sea level and its rate of change over 30 Myr. (c) Distance-dependent stretching factor and the resulting thermal subsidence at 10, 20 and 30 Myr across the continental margin.
-              </div>
-              
-
-              <br>
-              
-              
-              <h3 class="list-post-title">
-              Conditions: <br>
-              </h3>
-              
-              
-              <table class="table">
-                <tbody>
-                  
-                    
-                    <tr>
-                    
-                        <th>Variables</th>
-                    
-                        <th>Parameter</th>
-                    
-                        <th>value</th>
-                    
-                    </tr>
-                    
-                    <tr>
-                    
-                        <td>Non Marine Erodibility</td>
-                    
-                        <td>K_e</td>
-                    
-                        <td>1.e-7</td>
-                    
-                    </tr>
-                  
-                    
-                    <tr>
-                    
-                        <td>Rainfall</td>
-                    
-                        <td>P [m/a]</td>
-                    
-                        <td>2.0</td>
-                    
-                    </tr>
-                  
-                    
-                    <tr>
-                    
-                        <td>(Rainfall * Area) exponent m</td>
-                    
-                        <td>m</td>
-                    
-                        <td>0.5</td>
-                    
-                    </tr>
-                  
-                    
-                    <tr>
-                    
-                        <td>Slope exponent n</td>
-                    
-                        <td>n</td>
-                    
-                        <td>1.0</td>
-                    
-                    </tr>
-                  
-                    
-                    <tr>
-                    
-                        <td>Slope Minimum for Flood-plain Deposition</td>
-                    
-                        <td>slp_cr</td>
-                    
-                        <td>0.001</td>
-                    
-                    </tr>
-                  
-                    
-                    <tr>
-                    
-                        <td>Non-Marine % Max Deposition</td>
-                    
-                        <td>perc_dep</td>
-                    
-                        <td>0.75</td>
-                    
-                    </tr>
-                  
-                    
-                    <tr>
-                    
-                        <td>Land sed. Transport by River</td>
-                    
-                        <td>criver</td>
-                    
-                        <td>10</td>
-                    
-                    </tr>
-                  
-                    
-                    <tr>
-                    
-                        <td>Land sed. Transport by Wind</td>
-                    
-                        <td>caerial</td>
-                    
-                        <td>0.001</td>
-                    
-                    </tr>
-                  
-                    
-                    <tr>
-                    
-                        <td>Lake/Sea sed. Transport by Currents</td>
-                    
-                        <td>cmarine</td>
-                    
-                        <td>0.005</td>
-                    
-                    </tr>
-                  
-                    
-                    <tr>
-                    
-                        <td>No. Time Steps To Distribute Marine Deposits</td>
-                    
-                        <td>diffnb</td>
-                    
-                        <td>5</td>
-                    
-                    </tr>
-                  
-                    
-                    <tr>
-                    
-                        <td>Marine % Max Deposition</td>
-                    
-                        <td>diffprop</td>
-                    
-                        <td>0.9</td>
-                    
-                    </tr>
-                  
-                </tbody>
-              </table>
-              
-              <div class="list-item-2-img flex-basis-300 flex-grow-1" data-aos="fade-up" data-aos-delay="300" data-aos-offset="0">
-              <img src="" width="100%" alt=""/>
-              
-              </div>
-              
-              
-<!--               
-              <h3 class="list-post-title">
-              Conditions: 
-              </h3>
-              <div class="list-item-2-img flex-basis-300 flex-grow-1" data-aos="fade-up" data-aos-delay="300" data-aos-offset="0">
-              {"Variables"=>"Non Marine Erodibility", "Parameter"=>"K_e", "value"=>"1.e-7"}{"Variables"=>"Rainfall", "Parameter"=>"P [m/a]", "value"=>2.0}{"Variables"=>"(Rainfall * Area) exponent m", "Parameter"=>"m", "value"=>0.5}{"Variables"=>"Slope exponent n", "Parameter"=>"n", "value"=>1.0}{"Variables"=>"Slope Minimum for Flood-plain Deposition", "Parameter"=>"slp_cr", "value"=>0.001}{"Variables"=>"Non-Marine % Max Deposition", "Parameter"=>"perc_dep", "value"=>0.75}{"Variables"=>"Land sed. Transport by River", "Parameter"=>"criver", "value"=>10}{"Variables"=>"Land sed. Transport by Wind", "Parameter"=>"caerial", "value"=>0.001}{"Variables"=>"Lake/Sea sed. Transport by Currents", "Parameter"=>"cmarine", "value"=>0.005}{"Variables"=>"No. Time Steps To Distribute Marine Deposits", "Parameter"=>"diffnb", "value"=>5}{"Variables"=>"Marine % Max Deposition", "Parameter"=>"diffprop", "value"=>0.9}
-              
-              </div>
-               -->
-
-              <br>
-              
-              
-              <h3 class="list-post-title">
-              Results: <br> 
-              </h3>
-              <div class="list-item-2-img flex-basis-300 flex-grow-1" data-aos="fade-up" data-aos-delay="300" data-aos-offset="0">
-              <img src="https://www.earthbyte.org/BGH_Wordpress/wp-content/uploads/2019/11/S2S-AS-Interpretation.pdf" width="100%" alt=""/>
-              Interpretation workflow based on the accommodation succession method. Step 1 includes marking stratal terminations (i.e. toplap, onlap and downlap represented using small arrows) and manually picking the break in slope as offlap break. The refilling of incised channels is shown in red, indicating erosional surfaces. Based on the marked stratal contacts, three stratal stacking trends (solid arrows) and three stratigraphic surfaces (coloured solid lines) are then defined in Steps 2 and 3. The three interpreted stacking patterns are filled with different colours, with their bounding times marked (Step 4). Each stacking pattern reflects the evolving ratio between rate of accommodation creation (δA) and rate of sediment supply (δS). (c) Automatically defined stacking patterns according to the calculated temporal evolution of δA − δS (> 0, < 0 and decreasing, or < 0 and increasing) (d).
-              </div>
-              
- 
-              <br>
-              
-              
-              <h3 class="list-post-title">
-              Citation:  <br> 
-              </h3>
-              <a href="Ding, X., Salles, T., Flament, N., and Rey, P.: Quantitative stratigraphic analysis in a source-to-sink numerical framework, Geosci. Model Dev., 12, 2571–2585, https://doi.org/10.5194/gmd-12-2571-2019, 2019./">Ding, X., Salles, T., Flament, N., and Rey, P.: Quantitative stratigraphic analysis in a source-to-sink numerical framework, Geosci. Model Dev., 12, 2571–2585, https://doi.org/10.5194/gmd-12-2571-2019, 2019.</a>
-              
-              <br>
-
-                            
-              <h3 class="list-post-title">
-              Model URL: 
-              </h3>
-              <a href="https://github.com/XuesongDing/GMD-models/">https://github.com/XuesongDing/GMD-models</a>
-              
-
-            </span>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- posts -->
-
-    <!-- content -->
-    
-
-    <!-- content -->
-  </article>
-</div>
-
-
-    <footer>
-  <div class="footer container column align-items-center justify-content-center">
-    <div class="footer--block text-align-center">
-      <div class="" data-aos="fade-up" data-aos-delay="" data-aos-offset="0">
-        <a href="/"><span style="color:black">Atlas Editor: Sara Moron</span></a>
-        <br>
-        <a href="/"><span style="color:black">Technical Curators: Danial Azam, Julian Giordani, Ben Mather</span></a>
-      </div>
-      <br>
-      <div class="by" data-aos="fade-up" data-aos-delay="200" data-aos-offset="0">
-        <a href="https://www.earthbyte.org/BGH_Wordpress/">
-        <img border="0" alt="BGH" src="/assets/img/BasinGenesisHub.png" width="500" height="100"/>
-        <div style="text-align: center">
-          <span>The ARC Research Hub for Basin Geodynamics and Evolution of Sedimentary Systems (Basin GENESIS Hub) is a showcase of connecting "Big Data" analysis and high-performance computing in an open innovation framework. The hub is fusing multidimensional data into 5D basin models (space and time, with uncertainty estimates) by coupling the evolution of mantle flow, crustal deformation, erosion, and sedimentary processes using open-source modelling tools. The BGH is funded by ARC and industry partners Equinor, Oil Search and Chevron.</span>
-        </div>
-        </a>
-      </div>
-    </div>
-  </div>
-</footer>
-
-  </div>
-  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
-  <script src="/assets/js/simple-jekyll-search.min.js"></script>
-  
-  <script>
-    AOS.init({
-      once: true
-    });
-
-    SimpleJekyllSearch({
-      searchInput: document.getElementById('search-input'),
-      resultsContainer: document.getElementById('results-container'),
-      json: '/search.json'
-    })
-  </script>
-</body>
-
-</html>

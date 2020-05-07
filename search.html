@@ -1,18 +1,56 @@
-<!-- Html Elements for Search -->
-<div id="search-container">
-<input type="text" id="search-input" placeholder="search...">
-<ul id="results-container"></ul>
+      <div><strong>TODO: Make this page prettier</strong></div>
+<br>
+<div id="loginForm">
+    <span>Enter your github personal access token:</span>
+    <form onsubmit="event.preventDefault(); onSubmit(this);">
+        <input type="text" id="access-token" name="Access Token" placeholder="Github personal access token" required>
+        <input type="submit" value="Access">
+    </form>
 </div>
 
-<!-- Script pointing to search-script.js -->
-<script src="/assets/js/simple-jekyll-search.js" type="text/javascript"></script>
-
-<!-- Configuration -->
-<script>
-SimpleJekyllSearch({
-  searchInput: document.getElementById('search-input'),
-  resultsContainer: document.getElementById('results-container'),
-  json: '/search.json',
-  searchResultTemplate: '<li><a href="{{ site.url }}{url}">{title}</a></li>'
-})
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
 </script>
+
+<script>
+
+//LOOK HERE!!
+//CHANGE US!!
+const org = 'basin-genesis-hub';
+const repo = 'bgh_atlas_member_private';
+const branch = 'master';
+const page = '_site/search.html';
+////////////////////////////////
+
+var old_token  = JSON.parse(localStorage.getItem('bgh_token'));
+if (old_token) {
+    replace_content(old_token.token);
+}
+
+function onSubmit(form) {
+    replace_content($("#access-token").val());
+    return;
+}
+function replace_content(token){
+    $.ajax({
+        method: "GET",
+        url: 'https://api.github.com/repos/'+org+'/'+repo+'/contents/'+page+'?ref='+branch,
+        headers: {
+                Accept: 'application/json',
+                Authorization: 'token ' + token
+            }
+        })
+        .done(function( data ){
+            const content = data.encoding === 'base64' ? atob(data.content) : data.content;
+            document.open();
+            document.write(content);
+            document.close();
+            localStorage.setItem('bgh_token', JSON.stringify({ 'token': token }));
+            //console.log(data)
+        })
+        .fail(function(){
+            alert("failed!");
+        });
+    return;
+}
+</script>
+

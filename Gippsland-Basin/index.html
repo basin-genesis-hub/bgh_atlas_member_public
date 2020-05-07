@@ -1,444 +1,56 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Gippsland Basin</title>
-
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/the-grid-flexbox@2.0.1/css/the-grid.min.css">
-  <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
-  <link rel="stylesheet" href="/css/main.css">
-
-  <link rel="shortcut icon" href="/assets/img/BasinGenesisHub.png">
-  <link rel="icon" href="/assets/img/BasinGenesisHub.png">
-
-  <!-- facebook -->
-  <meta property="og:title" content="BGH Atlas" />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="" />
-  <meta property="og:description" content="The Atlas is a top-level visual summary of end-member numerical models that the BGH is created." />
-  <meta property="og:site_name" content="BGH Atlas" />
-  <meta property="og:image" content="/assets/img/image.png" />
-  <meta property="fb:app_id" content="1154262757941899" />
-  <meta property="fb:admins" content="100002787447461" />
-  <!-- facebook -->
-
-  <!-- twitter -->
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="BGH Atlas">
-  <meta name="twitter:description" content="The Atlas is a top-level visual summary of end-member numerical models that the BGH is created.">
-  <meta name="twitter:creator" content="EarthByteGroup">
-  <meta name="twitter:image" content="/assets/img/image.png">
-  <meta itemprop="name" content="BGH Atlas">
-  <meta itemprop="description" content="The Atlas is a top-level visual summary of end-member numerical models that the BGH is created.">
-  <meta itemprop="image" content="/assets/img/image.png">
-  <!-- twitter -->
-</head>
-
-
-<body>
-  <div class="">
-    <div class="menu">
-  <div class="size margin menu--content container align-items-center justify-content-between">
-
-    <div class="" data-aos="fade-right" data-aos-delay="" data-aos-offset="0">
-      <a href="/"><img border="0" alt="BGH" src="/assets/img/BasinGenesisHub.png" width="200" height="40"/></a>
-      <a href="/">BGH Atlas</a>
-    </div>
-
-    <a href="" data-aos="fade-left" data-aos-delay="" data-aos-offset="0">
-      <div class="container align-items-baseline back-to-site">
-        <div class="">
-          <span class="feather-icon icon-external-link"></span>
-        </div>
-        <div class="back-to-site-text">
-          <a href="https://members.atlas.bgh.org.au//">Private Atlas</a>
-          
-        </div>
-      </div>
-    </a>
-
-    <a href="" data-aos="fade-left" data-aos-delay="" data-aos-offset="0">
-      <div class="container align-items-baseline back-to-site">
-        <div class="">
-          <span class="feather-icon icon-external-link"></span>
-        </div>
-        <div class="back-to-site-text">
-          <a href="http://bgh.org.au//">Back to BGH website</a>
-          
-        </div>
-      </div>
-    </a>
-    <!-- <nav class="masthead-nav">
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-    </nav> -->
-  </div>
+      <div><strong>TODO: Make this page prettier</strong></div>
+<br>
+<div id="loginForm">
+    <span>Enter your github personal access token:</span>
+    <form onsubmit="event.preventDefault(); onSubmit(this);">
+        <input type="text" id="access-token" name="Access Token" placeholder="Github personal access token" required>
+        <input type="submit" value="Access">
+    </form>
 </div>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+</script>
 
-    
+<script>
 
+//LOOK HERE!!
+//CHANGE US!!
+const org = 'basin-genesis-hub';
+const repo = 'bgh_atlas_member_private';
+const branch = 'master';
+const page = '_site/Gippsland-Basin/index.html';
+////////////////////////////////
 
+var old_token  = JSON.parse(localStorage.getItem('bgh_token'));
+if (old_token) {
+    replace_content(old_token.token);
+}
 
-<!-- breadcrumbs -->
-<div class="size margin" data-aos="fade-right" data-aos-delay="100" data-aos-offset="0">
-  
+function onSubmit(form) {
+    replace_content($("#access-token").val());
+    return;
+}
+function replace_content(token){
+    $.ajax({
+        method: "GET",
+        url: 'https://api.github.com/repos/'+org+'/'+repo+'/contents/'+page+'?ref='+branch,
+        headers: {
+                Accept: 'application/json',
+                Authorization: 'token ' + token
+            }
+        })
+        .done(function( data ){
+            const content = data.encoding === 'base64' ? atob(data.content) : data.content;
+            document.open();
+            document.write(content);
+            document.close();
+            localStorage.setItem('bgh_token', JSON.stringify({ 'token': token }));
+            //console.log(data)
+        })
+        .fail(function(){
+            alert("failed!");
+        });
+    return;
+}
+</script>
 
-
-
-
-
-<div class="container wrap breadcrumbs">
-  <a href="/">Home</a>
-  
-  <span class="prompt margin-left-10 margin-right-10">></span>
-  
-  
-  Gippsland Basin
-  
-  
-</div>
-
-</div>
-<!-- breadcrumbs -->
-
-<div class="size margin min-height">
-  <article>
-    <!-- titles -->
-    <h1 class="post-title" data-aos="fade-up" data-aos-delay="200" data-aos-offset="0">Gippsland Basin</h1>
-    <div class="post-date" data-aos="fade-left" data-aos-delay="300" data-aos-offset="0">
-      <!-- <time>26 Sep 2019</time> -->
-      <span class="reading-time" title=" Author ">
-      
-        
-          Xuemei(Linda) Yang, Greg Smith
-        
-      
-      </span>
-    </div>
-    <!-- titles -->
-    <!-- posts -->
-    <div class="">
-      <div class="list-item-2 container wrap-reverse align-items-end justify-content-center" data-aos="fade-up" data-aos-delay="0" data-aos-offset="0">
-<!--         
-        <div class="list-item-2-img flex-basis-300 flex-grow-1" data-aos="fade-up" data-aos-delay="300" data-aos-offset="0">
-          <img src="https://www.earthbyte.org/BGH_Wordpress/wp-content/uploads/2019/09/0.png" width="100%" alt="">
-        </div>
-         -->
-        <div class="flex-basis-400 flex-grow-5">
-          <div class="" data-aos="fade-up" data-aos-delay="300" data-aos-offset="0">
-            <h3 class="list-post-title">
-            Software Used:</h3>
-            <ul>
-            
-            <span><li>Badlands 1.0</li> </span>
-            
-            </ul>
-          </div>
-          <div class="" data-aos="fade-up" data-aos-delay="300" data-aos-offset="0">
-            <span class="list-post-description">
-              <br>
-              
-              <div >
-                <!--  -->
-                <div class="list-item-2-img flex-basis-300 flex-grow-1" data-aos="fade-up" data-aos-delay="300" data-aos-offset="0">
-                <video autoplay loop muted preload="auto" width="720" height="360" controls>
-                  <source src="https://www.earthbyte.org/BGH_Wordpress/wp-content/uploads/2019/09/Gippsland_model.mp4" type="video/mp4">
-                  <source src="https://www.earthbyte.org/BGH_Wordpress/wp-content/uploads/2019/09/Gippsland_model.mp4" type="video/ogg">
-                  <source src="https://www.earthbyte.org/BGH_Wordpress/wp-content/uploads/2019/09/Gippsland_model.mp4" type="video/ogv">
-                  <source src="https://www.earthbyte.org/BGH_Wordpress/wp-content/uploads/2019/09/Gippsland_model.mp4" type="video/webm">
-                  Your browser does not support the video tag.
-                </video>
-                </div>
-              The model simulates the geological history of the Gippsland Basin, constrained by a realistic 3D structural and stratigraphic model built in Petrel software. The aim is to assess and calibrate the theoretical tectonic and sedimentary models using empirical data for a rift basin.  The Badlands models are used to assess and measure the relative effect of significant variables for sedimentary basins, including: extension, subsidence, uplift, erosion, climate, sea level change and sedimentation of non-marine, marine, shelf and carbonate sequences.
-              </div>
-              
-              
-              <br>
-
-              
-              <h3 class="list-post-title">
-              Model Setup: <br>
-              </h3>
-              
-              <div class="list-item-2-img flex-basis-300 flex-grow-1" data-aos="fade-up" data-aos-delay="300" data-aos-offset="0">
-              <img src="https://www.earthbyte.org/BGH_Wordpress/wp-content/uploads/2019/09/model-setup.jpg" width="100%" alt=""/>
-              The thickness maps are input as burial displacement maps to simulate extension/subsidence history. The input maps are generated from the 3D realistic Petrel model.  This model is based on seismic interpretation of all the open file 3D and 2D seismic surveys and correlation of over 250 offshore wells and more than 1000 onshore wells or bores. The interpreted seismic surfaces and well data are used to create thickness maps between the main horizons (e.g. topography, mid Miocene, top Latrobe Group, base Tertiary, top Strzelecki Group, top Basement).
-              </div>
-              
-
-              <br>
-              
-              
-              <h3 class="list-post-title">
-              Conditions: <br>
-              </h3>
-              
-              
-              <table class="table">
-                <tbody>
-                  
-                    
-                    <tr>
-                    
-                        <th>Uncertainties/Variables</th>
-                    
-                        <th>Parameter</th>
-                    
-                        <th>value</th>
-                    
-                    </tr>
-                    
-                    <tr>
-                    
-                        <td>Non Marine Erodibility</td>
-                    
-                        <td>erodibility</td>
-                    
-                        <td>2.e-7</td>
-                    
-                    </tr>
-                  
-                    
-                    <tr>
-                    
-                        <td>Rainfall</td>
-                    
-                        <td>precipitation [m/a]</td>
-                    
-                        <td>∝ Elevation</td>
-                    
-                    </tr>
-                  
-                    
-                    <tr>
-                    
-                        <td>(Rainfall * Area) exponent m</td>
-                    
-                        <td>m</td>
-                    
-                        <td>0.5</td>
-                    
-                    </tr>
-                  
-                    
-                    <tr>
-                    
-                        <td>Slope exponent n</td>
-                    
-                        <td>n</td>
-                    
-                        <td>1.2</td>
-                    
-                    </tr>
-                  
-                    
-                    <tr>
-                    
-                        <td>Slope Minimum for Flood-plain Deposition</td>
-                    
-                        <td>slp_cr</td>
-                    
-                        <td>0.001</td>
-                    
-                    </tr>
-                  
-                    
-                    <tr>
-                    
-                        <td>Non-Marine % Max Deposition</td>
-                    
-                        <td>perc_dep</td>
-                    
-                        <td>0.4</td>
-                    
-                    </tr>
-                  
-                    
-                    <tr>
-                    
-                        <td>Land sed. Transport by River</td>
-                    
-                        <td>criver</td>
-                    
-                        <td>10</td>
-                    
-                    </tr>
-                  
-                    
-                    <tr>
-                    
-                        <td>Land sed. Transport by Wind</td>
-                    
-                        <td>caerial</td>
-                    
-                        <td>0.001</td>
-                    
-                    </tr>
-                  
-                    
-                    <tr>
-                    
-                        <td>Lake/Sea sed. Transport by Currents</td>
-                    
-                        <td>cmarine</td>
-                    
-                        <td>0.005</td>
-                    
-                    </tr>
-                  
-                    
-                    <tr>
-                    
-                        <td>No. Time Steps To Distribute Marine Deposits</td>
-                    
-                        <td>diffnb</td>
-                    
-                        <td>40</td>
-                    
-                    </tr>
-                  
-                    
-                    <tr>
-                    
-                        <td>Marine % Max Deposition</td>
-                    
-                        <td>diffprop</td>
-                    
-                        <td>5.0e-06</td>
-                    
-                    </tr>
-                  
-                </tbody>
-              </table>
-              
-              <div class="list-item-2-img flex-basis-300 flex-grow-1" data-aos="fade-up" data-aos-delay="300" data-aos-offset="0">
-              <img src="" width="100%" alt=""/>
-              
-              </div>
-              
-              
-<!--               
-              <h3 class="list-post-title">
-              Conditions: 
-              </h3>
-              <div class="list-item-2-img flex-basis-300 flex-grow-1" data-aos="fade-up" data-aos-delay="300" data-aos-offset="0">
-              {"Uncertainties/Variables"=>"Non Marine Erodibility", "Parameter"=>"erodibility", "value"=>"2.e-7"}{"Uncertainties/Variables"=>"Rainfall", "Parameter"=>"precipitation [m/a]", "value"=>"∝ Elevation"}{"Uncertainties/Variables"=>"(Rainfall * Area) exponent m", "Parameter"=>"m", "value"=>0.5}{"Uncertainties/Variables"=>"Slope exponent n", "Parameter"=>"n", "value"=>1.2}{"Uncertainties/Variables"=>"Slope Minimum for Flood-plain Deposition", "Parameter"=>"slp_cr", "value"=>0.001}{"Uncertainties/Variables"=>"Non-Marine % Max Deposition", "Parameter"=>"perc_dep", "value"=>0.4}{"Uncertainties/Variables"=>"Land sed. Transport by River", "Parameter"=>"criver", "value"=>10}{"Uncertainties/Variables"=>"Land sed. Transport by Wind", "Parameter"=>"caerial", "value"=>0.001}{"Uncertainties/Variables"=>"Lake/Sea sed. Transport by Currents", "Parameter"=>"cmarine", "value"=>0.005}{"Uncertainties/Variables"=>"No. Time Steps To Distribute Marine Deposits", "Parameter"=>"diffnb", "value"=>40}{"Uncertainties/Variables"=>"Marine % Max Deposition", "Parameter"=>"diffprop", "value"=>5.0e-06}
-              
-              </div>
-               -->
-
-              <br>
-              
-              
-              <h3 class="list-post-title">
-              Results: <br> 
-              </h3>
-              <div class="list-item-2-img flex-basis-300 flex-grow-1" data-aos="fade-up" data-aos-delay="300" data-aos-offset="0">
-              <img src="https://www.earthbyte.org/BGH_Wordpress/wp-content/uploads/2019/09/Gippsland.png" width="100%" alt=""/>
-              The modelling results indicate several insights for the Gippsland Basin.  The initial paleo-topography at ~137 Ma comprised extensive highlands covering the entire region.  The Early Cretaceous paleo-environment was intracratonic, with sediment transport from east to west, and in the late Early Cretaceous included an inland sea. The Mid Cretaceous uplift caused emergence of the entire basin, substantial regional erosion and changed the basin architecture. Subsidence associated with Tasman Sea rifting formed the Central Deep and flipped the fluvial paleo-drainage system towards the east. Latrobe Group sediments then filled the basin, the early Late Cretaceous fluvial and lacustrine sediments (including potential source rocks and good sandstone reservoirs) being progressively transgressed by marginal marine and marine sediments with rising sea levels to flood most areas by the Oligocene. Since then non-marine sediments, dominated by thick coals, were confined to the west behind a thick aggrading and prograding carbonate shelf incised by deep submarine canyons. The very rapid burial of the Latrobe Group was accompanied by slow inversion which resulted in generation, migration and entrapment of substantial hydrocarbons in large anticlines and unconformity traps.
-              </div>
-              
- 
-              <br>
-              
-              
-              <h3 class="list-post-title">
-              Citation:  <br> 
-              </h3>
-              <a href="/"></a>
-              
-              <br>
-
-                            
-              <h3 class="list-post-title">
-              Model URL: 
-              </h3>
-              <a href="/"></a>
-              
-
-            </span>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- posts -->
-
-    <!-- content -->
-    
-
-    <!-- content -->
-  </article>
-</div>
-
-
-    <footer>
-  <div class="footer container column align-items-center justify-content-center">
-    <div class="footer--block text-align-center">
-      <div class="" data-aos="fade-up" data-aos-delay="" data-aos-offset="0">
-        <a href="/"><span style="color:black">Atlas Editor: Sara Moron</span></a>
-        <br>
-        <a href="/"><span style="color:black">Technical Curators: Danial Azam, Julian Giordani, Ben Mather</span></a>
-      </div>
-      <br>
-      <div class="by" data-aos="fade-up" data-aos-delay="200" data-aos-offset="0">
-        <a href="https://www.earthbyte.org/BGH_Wordpress/">
-        <img border="0" alt="BGH" src="/assets/img/BasinGenesisHub.png" width="500" height="100"/>
-        <div style="text-align: center">
-          <span>The ARC Research Hub for Basin Geodynamics and Evolution of Sedimentary Systems (Basin GENESIS Hub) is a showcase of connecting "Big Data" analysis and high-performance computing in an open innovation framework. The hub is fusing multidimensional data into 5D basin models (space and time, with uncertainty estimates) by coupling the evolution of mantle flow, crustal deformation, erosion, and sedimentary processes using open-source modelling tools. The BGH is funded by ARC and industry partners Equinor, Oil Search and Chevron.</span>
-        </div>
-        </a>
-      </div>
-    </div>
-  </div>
-</footer>
-
-  </div>
-  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
-  <script src="/assets/js/simple-jekyll-search.min.js"></script>
-  
-  <script>
-    AOS.init({
-      once: true
-    });
-
-    SimpleJekyllSearch({
-      searchInput: document.getElementById('search-input'),
-      resultsContainer: document.getElementById('results-container'),
-      json: '/search.json'
-    })
-  </script>
-</body>
-
-</html>

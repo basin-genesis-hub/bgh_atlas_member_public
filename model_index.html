@@ -1,22 +1,56 @@
---
-layout: page
-title: Model Index
-permalink: /tectonics/
----
-<h3>Tectonics</h3>
-<ul>
-    {% for doc in site.posts %}
-      {% if doc.software == "Underworld" %}
-      <li><a href="{{ doc.url }}">{{ doc.title }}</a></li>
-      {% endif %}
-    {% endfor %}
-</ul>
+      <div><strong>TODO: Make this page prettier</strong></div>
+<br>
+<div id="loginForm">
+    <span>Enter your github personal access token:</span>
+    <form onsubmit="event.preventDefault(); onSubmit(this);">
+        <input type="text" id="access-token" name="Access Token" placeholder="Github personal access token" required>
+        <input type="submit" value="Access">
+    </form>
+</div>
 
-<h3>Depositional</h3>
-<ul>
-    {% for doc in site.posts %}
-      {% if doc.colour == "Badlands" %}
-      <li><a href="{{ doc.url }}">{{ doc.title }}</a></li>
-      {% endif %}
-    {% endfor %}
-</ul>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+</script>
+
+<script>
+
+//LOOK HERE!!
+//CHANGE US!!
+const org = 'basin-genesis-hub';
+const repo = 'bgh_atlas_member_private';
+const branch = 'master';
+const page = '_site/model_index.html';
+////////////////////////////////
+
+var old_token  = JSON.parse(localStorage.getItem('bgh_token'));
+if (old_token) {
+    replace_content(old_token.token);
+}
+
+function onSubmit(form) {
+    replace_content($("#access-token").val());
+    return;
+}
+function replace_content(token){
+    $.ajax({
+        method: "GET",
+        url: 'https://api.github.com/repos/'+org+'/'+repo+'/contents/'+page+'?ref='+branch,
+        headers: {
+                Accept: 'application/json',
+                Authorization: 'token ' + token
+            }
+        })
+        .done(function( data ){
+            const content = data.encoding === 'base64' ? atob(data.content) : data.content;
+            document.open();
+            document.write(content);
+            document.close();
+            localStorage.setItem('bgh_token', JSON.stringify({ 'token': token }));
+            //console.log(data)
+        })
+        .fail(function(){
+            alert("failed!");
+        });
+    return;
+}
+</script>
+
