@@ -1,4 +1,4 @@
-Do the steps in https://github.com/basin-genesis-hub/bgh_atlas_member_private first.
+Do the steps in https://github.com/basin-genesis-hub/bgh_atlas_member_private first and then come back do the following steps.
 
 Step 1: Get all the file from https://github.com/basin-genesis-hub/bgh_atlas_member_private/tree/master/_site and replace the old file in this repository
 
