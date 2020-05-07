@@ -1,11 +1,11 @@
-<div id="login-dev" style="display:none;">
-    <div><strong>TODO: Make this page prettier</strong></div>
+
+<div id="login-dev" style="display:none; width: 600px;margin: 0px auto;font-size: xx-large;">
     <br>
     <div id="loginForm">
-        <span>Enter your github personal access token:</span>
+        <div style="margin-bottom: 15px;"> Enter your github personal access token:</div>
         <form onsubmit="event.preventDefault(); onSubmit(this);">
-            <input type="text" id="access-token" name="Access Token" placeholder="Github personal access token" required>
-            <input type="submit" value="Access">
+            <input type="text" id="access-token" name="Access Token" placeholder="Github Personal Access Token" required style="width: 500px;height: 40px;font-size: large;">
+            <input type="submit" value="Access" style="font-size: large;width: 90px;height: 2em;-webkit-appearance: button;">
         </form>
     </div>
 </div>
@@ -52,7 +52,7 @@ function replace_content(token){
             //console.log(data)
         })
         .fail(function(){
-            alert("failed!");
+            alert("Failed to access the web page with the provided token!");
             $("#login-dev").show();
         });
     return;
