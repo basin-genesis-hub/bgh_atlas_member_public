@@ -3,10 +3,10 @@
   <channel>
     <title>BGH Atlas</title>
     <description>The Atlas is a top-level visual summary of end-member numerical models that the BGH is created.</description>
-    <link>http://0.0.0.0:4000/</link>
-    <atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 06 May 2020 21:42:54 -0500</pubDate>
-    <lastBuildDate>Wed, 06 May 2020 21:42:54 -0500</lastBuildDate>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 06 May 2020 22:02:48 -0500</pubDate>
+    <lastBuildDate>Wed, 06 May 2020 22:02:48 -0500</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -14,8 +14,8 @@
         <description>
 </description>
         <pubDate>Wed, 22 Jan 2020 00:00:00 -0600</pubDate>
-        <link>http://0.0.0.0:4000/Uncertainty-of-Reconstructions-by-Plate-ID/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/Uncertainty-of-Reconstructions-by-Plate-ID/</guid>
+        <link>/Uncertainty-of-Reconstructions-by-Plate-ID/</link>
+        <guid isPermaLink="true">/Uncertainty-of-Reconstructions-by-Plate-ID/</guid>
         
         
         <category>surface processes</category>
@@ -27,8 +27,8 @@
         <description>
 </description>
         <pubDate>Thu, 28 Nov 2019 00:00:00 -0600</pubDate>
-        <link>http://0.0.0.0:4000/Public-copy-of-gulf-of-papua/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/Public-copy-of-gulf-of-papua/</guid>
+        <link>/Public-copy-of-gulf-of-papua/</link>
+        <guid isPermaLink="true">/Public-copy-of-gulf-of-papua/</guid>
         
         
         <category>surface processes</category>
@@ -40,8 +40,8 @@
         <description>
 </description>
         <pubDate>Fri, 08 Nov 2019 00:00:00 -0600</pubDate>
-        <link>http://0.0.0.0:4000/S2S-StratigraphicModelling/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/S2S-StratigraphicModelling/</guid>
+        <link>/S2S-StratigraphicModelling/</link>
+        <guid isPermaLink="true">/S2S-StratigraphicModelling/</guid>
         
         
         <category>Depositional</category>
@@ -53,8 +53,8 @@
         <description>
 </description>
         <pubDate>Fri, 08 Nov 2019 00:00:00 -0600</pubDate>
-        <link>http://0.0.0.0:4000/S2S-DynTopo/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/S2S-DynTopo/</guid>
+        <link>/S2S-DynTopo/</link>
+        <guid isPermaLink="true">/S2S-DynTopo/</guid>
         
         
         <category>Depositional</category>
@@ -66,8 +66,8 @@
         <description>
 </description>
         <pubDate>Tue, 29 Oct 2019 00:00:00 -0500</pubDate>
-        <link>http://0.0.0.0:4000/gulf-of-papua/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/gulf-of-papua/</guid>
+        <link>/gulf-of-papua/</link>
+        <guid isPermaLink="true">/gulf-of-papua/</guid>
         
         
         <category>surface processes</category>
@@ -79,8 +79,8 @@
         <description>
 </description>
         <pubDate>Thu, 26 Sep 2019 00:00:00 -0500</pubDate>
-        <link>http://0.0.0.0:4000/Gippsland-Basin/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/Gippsland-Basin/</guid>
+        <link>/Gippsland-Basin/</link>
+        <guid isPermaLink="true">/Gippsland-Basin/</guid>
         
         
         <category>Depositional &amp; Tectonic</category>
@@ -92,8 +92,8 @@
         <description>
 </description>
         <pubDate>Mon, 09 Sep 2019 00:00:00 -0500</pubDate>
-        <link>http://0.0.0.0:4000/Australia-wide-coupled-model-since-Jurassic/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/Australia-wide-coupled-model-since-Jurassic/</guid>
+        <link>/Australia-wide-coupled-model-since-Jurassic/</link>
+        <guid isPermaLink="true">/Australia-wide-coupled-model-since-Jurassic/</guid>
         
         
         <category>surface processes</category>
@@ -105,8 +105,8 @@
         <description>
 </description>
         <pubDate>Sun, 08 Sep 2019 00:00:00 -0500</pubDate>
-        <link>http://0.0.0.0:4000/Pull-Apart-Basins/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/Pull-Apart-Basins/</guid>
+        <link>/Pull-Apart-Basins/</link>
+        <guid isPermaLink="true">/Pull-Apart-Basins/</guid>
         
         
         <category>Coupled</category>
@@ -118,8 +118,8 @@
         <description>
 </description>
         <pubDate>Sun, 08 Sep 2019 00:00:00 -0500</pubDate>
-        <link>http://0.0.0.0:4000/McClay-style/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/McClay-style/</guid>
+        <link>/McClay-style/</link>
+        <guid isPermaLink="true">/McClay-style/</guid>
         
         
         <category>Tectonic</category>
@@ -131,8 +131,8 @@
         <description>
 </description>
         <pubDate>Tue, 30 Jul 2019 00:00:00 -0500</pubDate>
-        <link>http://0.0.0.0:4000/2T-rift-coupled/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2T-rift-coupled/</guid>
+        <link>/2T-rift-coupled/</link>
+        <guid isPermaLink="true">/2T-rift-coupled/</guid>
         
         
         <category>coupled</category>
