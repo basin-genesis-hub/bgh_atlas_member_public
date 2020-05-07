@@ -1,11 +1,13 @@
-      <div><strong>TODO: Make this page prettier</strong></div>
-<br>
-<div id="loginForm">
-    <span>Enter your github personal access token:</span>
-    <form onsubmit="event.preventDefault(); onSubmit(this);">
-        <input type="text" id="access-token" name="Access Token" placeholder="Github personal access token" required>
-        <input type="submit" value="Access">
-    </form>
+<div id="login-dev" style="display:none;">
+    <div><strong>TODO: Make this page prettier</strong></div>
+    <br>
+    <div id="loginForm">
+        <span>Enter your github personal access token:</span>
+        <form onsubmit="event.preventDefault(); onSubmit(this);">
+            <input type="text" id="access-token" name="Access Token" placeholder="Github personal access token" required>
+            <input type="submit" value="Access">
+        </form>
+    </div>
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
@@ -24,6 +26,8 @@ const page = '_site/McClay-style/index.html';
 var old_token  = JSON.parse(localStorage.getItem('bgh_token'));
 if (old_token) {
     replace_content(old_token.token);
+}else{
+    $("#login-dev").show();
 }
 
 function onSubmit(form) {
@@ -49,6 +53,7 @@ function replace_content(token){
         })
         .fail(function(){
             alert("failed!");
+            $("#login-dev").show();
         });
     return;
 }
