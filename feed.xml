@@ -5,9 +5,22 @@
     <description>The Atlas is a top-level visual summary of end-member numerical models that the BGH is created.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 06 May 2020 22:02:48 -0500</pubDate>
-    <lastBuildDate>Wed, 06 May 2020 22:02:48 -0500</lastBuildDate>
+    <pubDate>Thu, 14 May 2020 20:37:42 -0500</pubDate>
+    <lastBuildDate>Thu, 14 May 2020 20:37:42 -0500</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Copied Mcclay Style</title>
+        <description>
+</description>
+        <pubDate>Fri, 15 May 2020 00:00:00 -0500</pubDate>
+        <link>/Copied-McClay-style/</link>
+        <guid isPermaLink="true">/Copied-McClay-style/</guid>
+        
+        
+        <category>Tectonic</category>
+        
+      </item>
     
       <item>
         <title>Uncertainty Of Reconstructions By Plate Id</title>
@@ -123,19 +136,6 @@
         
         
         <category>Tectonic</category>
-        
-      </item>
-    
-      <item>
-        <title>2t Rift Coupled</title>
-        <description>
-</description>
-        <pubDate>Tue, 30 Jul 2019 00:00:00 -0500</pubDate>
-        <link>/2T-rift-coupled/</link>
-        <guid isPermaLink="true">/2T-rift-coupled/</guid>
-        
-        
-        <category>coupled</category>
         
       </item>
     

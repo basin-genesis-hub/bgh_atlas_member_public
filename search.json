@@ -1,6 +1,20 @@
 [
   
     {
+      "title"       : "Copied Mcclay Style",
+      "date"        : "2020-05-15 00:00:00 -0500",
+      "categories"  : "Tectonic",
+      "by"          : "Patrice F. Rey - BGH and Earthbyte Research Group, The University of Sydney, patrice.rey@sydney.edu.au",
+      "url"         : "/Copied-McClay-style/",
+      "icon"        : "globe",
+      "keywords"    : "",
+      "description" : {"url":"https://www.earthbyte.org/BGH_Wordpress/wp-content/uploads/2019/09/McClay_InternalCondition-1.png","description":"This suite of experiments is inspired by similar sandbox analog models from Kent McClay. Here, the aim is to develop an Underworld 2D template capable of matching the modelling outcomes of the best sandbox experiments. Our template represents a domain 144 km long and 36 km deep, the top 12 km of which is made of air-like material. There is 16 km of sedimentary rocks (pre-rift sequence) distributed over 10 layers, the top 10 are 1.5 km thick. Underneath, there is 8 km of stronger rocks (i.e. larger cohesion and coefficient of friction). We include a salt-like layer (constant density 2000 kg/m3, viscosity 1e19 Pa.s), either at the surface of the model, or within top section of the pre-rift sequence. The density of the sediments increases with depth either incrementaly or following a dependence on the confining pressure to simulate compaction. During extension, the progressive burial of the salt layer under sediments of increasing density results in a density inversion. In some models we impose a pseudo-isostatic condition at the base of the model, to maintain the lithostatic pressure constant. The wall to the right moves away at 2 cm/yr. To mimic sandbox kinematic boundary conditions, we i/ turn off the isostasy, ii/ impose a constant velocity at the base of the model, as well as on the vertical wall on the left where it meets with the lower basal layer, and iii/ we add a thin, low viscosity layer, to decouple the sedimentary sequence from the backstop and the bottom layer."},
+      "citation"    : "Patrice F. Rey, 2019:",
+      "contact"     : ""
+
+    } ,
+  
+    {
       "title"       : "Uncertainty Of Reconstructions By Plate Id",
       "date"        : "2020-01-22 00:00:00 -0600",
       "categories"  : "surface processes",
