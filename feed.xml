@@ -5,8 +5,8 @@
     <description>The Atlas is a top-level visual summary of end-member numerical models that the BGH is created.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 10 Jun 2020 20:05:53 -0500</pubDate>
-    <lastBuildDate>Wed, 10 Jun 2020 20:05:53 -0500</lastBuildDate>
+    <pubDate>Thu, 11 Jun 2020 01:59:16 -0500</pubDate>
+    <lastBuildDate>Thu, 11 Jun 2020 01:59:16 -0500</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -88,6 +88,19 @@
       </item>
     
       <item>
+        <title>New_bd_post_2</title>
+        <description>
+</description>
+        <pubDate>Mon, 30 Dec 2019 00:00:00 -0600</pubDate>
+        <link>/NEW_BD_POST_2/</link>
+        <guid isPermaLink="true">/NEW_BD_POST_2/</guid>
+        
+        
+        <category>surface processes</category>
+        
+      </item>
+    
+      <item>
         <title>Public Copy Of Gulf Of Papua</title>
         <description>
 </description>
@@ -123,19 +136,6 @@
         
         
         <category>Depositional</category>
-        
-      </item>
-    
-      <item>
-        <title>Gulf Of Papua</title>
-        <description>
-</description>
-        <pubDate>Tue, 29 Oct 2019 00:00:00 -0500</pubDate>
-        <link>/gulf-of-papua/</link>
-        <guid isPermaLink="true">/gulf-of-papua/</guid>
-        
-        
-        <category>surface processes</category>
         
       </item>
     
