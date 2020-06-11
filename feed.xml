@@ -5,9 +5,48 @@
     <description>The Atlas is a top-level visual summary of end-member numerical models that the BGH is created.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 14 May 2020 22:06:36 -0500</pubDate>
-    <lastBuildDate>Thu, 14 May 2020 22:06:36 -0500</lastBuildDate>
+    <pubDate>Wed, 10 Jun 2020 20:05:53 -0500</pubDate>
+    <lastBuildDate>Wed, 10 Jun 2020 20:05:53 -0500</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Uncertainty Of Reconstructions By Plate Id Partii</title>
+        <description>
+</description>
+        <pubDate>Thu, 11 Jun 2020 00:00:00 -0500</pubDate>
+        <link>/Uncertainty-of-Reconstructions-by-Plate-ID-PARTII/</link>
+        <guid isPermaLink="true">/Uncertainty-of-Reconstructions-by-Plate-ID-PARTII/</guid>
+        
+        
+        <category>surface processes</category>
+        
+      </item>
+    
+      <item>
+        <title>New_public_template</title>
+        <description>
+</description>
+        <pubDate>Fri, 15 May 2020 00:00:00 -0500</pubDate>
+        <link>/New_Public_Template/</link>
+        <guid isPermaLink="true">/New_Public_Template/</guid>
+        
+        
+        <category>Tectonic</category>
+        
+      </item>
+    
+      <item>
+        <title>New_private_template</title>
+        <description>
+</description>
+        <pubDate>Fri, 15 May 2020 00:00:00 -0500</pubDate>
+        <link>/New_Private_Template/</link>
+        <guid isPermaLink="true">/New_Private_Template/</guid>
+        
+        
+        <category>Tectonic</category>
+        
+      </item>
     
       <item>
         <title>Copied Mcclay Style</title>
@@ -29,6 +68,19 @@
         <pubDate>Wed, 22 Jan 2020 00:00:00 -0600</pubDate>
         <link>/Uncertainty-of-Reconstructions-by-Plate-ID/</link>
         <guid isPermaLink="true">/Uncertainty-of-Reconstructions-by-Plate-ID/</guid>
+        
+        
+        <category>surface processes</category>
+        
+      </item>
+    
+      <item>
+        <title>New_bd_post</title>
+        <description>
+</description>
+        <pubDate>Tue, 31 Dec 2019 00:00:00 -0600</pubDate>
+        <link>/NEW_BD_POST/</link>
+        <guid isPermaLink="true">/NEW_BD_POST/</guid>
         
         
         <category>surface processes</category>
@@ -84,58 +136,6 @@
         
         
         <category>surface processes</category>
-        
-      </item>
-    
-      <item>
-        <title>Gippsland Basin</title>
-        <description>
-</description>
-        <pubDate>Thu, 26 Sep 2019 00:00:00 -0500</pubDate>
-        <link>/Gippsland-Basin/</link>
-        <guid isPermaLink="true">/Gippsland-Basin/</guid>
-        
-        
-        <category>Depositional &amp; Tectonic</category>
-        
-      </item>
-    
-      <item>
-        <title>Australia Wide Coupled Model Since Jurassic</title>
-        <description>
-</description>
-        <pubDate>Mon, 09 Sep 2019 00:00:00 -0500</pubDate>
-        <link>/Australia-wide-coupled-model-since-Jurassic/</link>
-        <guid isPermaLink="true">/Australia-wide-coupled-model-since-Jurassic/</guid>
-        
-        
-        <category>surface processes</category>
-        
-      </item>
-    
-      <item>
-        <title>Pull Apart Basins</title>
-        <description>
-</description>
-        <pubDate>Sun, 08 Sep 2019 00:00:00 -0500</pubDate>
-        <link>/Pull-Apart-Basins/</link>
-        <guid isPermaLink="true">/Pull-Apart-Basins/</guid>
-        
-        
-        <category>Coupled</category>
-        
-      </item>
-    
-      <item>
-        <title>Mcclay Style</title>
-        <description>
-</description>
-        <pubDate>Sun, 08 Sep 2019 00:00:00 -0500</pubDate>
-        <link>/McClay-style/</link>
-        <guid isPermaLink="true">/McClay-style/</guid>
-        
-        
-        <category>Tectonic</category>
         
       </item>
     

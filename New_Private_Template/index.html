@@ -1,0 +1,61 @@
+
+<div id="login-dev" style="display:none; width: 600px;margin: 0px auto;font-size: xx-large;">
+    <br>
+    <div id="loginForm">
+        <div style="margin-bottom: 15px;"> Enter your github personal access token:</div>
+        <form onsubmit="event.preventDefault(); onSubmit(this);">
+            <input type="text" id="access-token" name="Access Token" placeholder="Github Personal Access Token" required style="width: 500px;height: 40px;font-size: large;">
+            <input type="submit" value="Access" style="font-size: large;width: 90px;height: 2em;-webkit-appearance: button;">
+        </form>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+</script>
+
+<script>
+
+//LOOK HERE!!
+//CHANGE US!!
+const org = 'basin-genesis-hub';
+const repo = 'bgh_atlas_member_private';
+const branch = 'master';
+const page = '_site/New_Private_Template/index.html';
+////////////////////////////////
+
+var old_token  = JSON.parse(localStorage.getItem('bgh_token'));
+if (old_token) {
+    replace_content(old_token.token);
+}else{
+    $("#login-dev").show();
+}
+
+function onSubmit(form) {
+    replace_content($("#access-token").val());
+    return;
+}
+function replace_content(token){
+    $.ajax({
+        method: "GET",
+        url: 'https://api.github.com/repos/'+org+'/'+repo+'/contents/'+page+'?ref='+branch,
+        headers: {
+                Accept: 'application/json',
+                Authorization: 'token ' + token
+            }
+        })
+        .done(function( data ){
+            const content = data.encoding === 'base64' ? atob(data.content) : data.content;
+            document.open();
+            document.write(content);
+            document.close();
+            localStorage.setItem('bgh_token', JSON.stringify({ 'token': token }));
+            //console.log(data)
+        })
+        .fail(function(){
+            alert("Failed to access the web page with the provided token!");
+            $("#login-dev").show();
+        });
+    return;
+}
+</script>
+
