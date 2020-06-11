@@ -5,8 +5,8 @@
     <description>The Atlas is a top-level visual summary of end-member numerical models that the BGH is created.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 11 Jun 2020 01:59:16 -0500</pubDate>
-    <lastBuildDate>Thu, 11 Jun 2020 01:59:16 -0500</lastBuildDate>
+    <pubDate>Thu, 11 Jun 2020 02:11:44 -0500</pubDate>
+    <lastBuildDate>Thu, 11 Jun 2020 02:11:44 -0500</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -16,6 +16,19 @@
         <pubDate>Thu, 11 Jun 2020 00:00:00 -0500</pubDate>
         <link>/Uncertainty-of-Reconstructions-by-Plate-ID-PARTII/</link>
         <guid isPermaLink="true">/Uncertainty-of-Reconstructions-by-Plate-ID-PARTII/</guid>
+        
+        
+        <category>surface processes</category>
+        
+      </item>
+    
+      <item>
+        <title>New_bd_post_3</title>
+        <description>
+</description>
+        <pubDate>Wed, 10 Jun 2020 00:00:00 -0500</pubDate>
+        <link>/NEW_BD_POST_3/</link>
+        <guid isPermaLink="true">/NEW_BD_POST_3/</guid>
         
         
         <category>surface processes</category>
@@ -120,19 +133,6 @@
         <pubDate>Fri, 08 Nov 2019 00:00:00 -0600</pubDate>
         <link>/S2S-StratigraphicModelling/</link>
         <guid isPermaLink="true">/S2S-StratigraphicModelling/</guid>
-        
-        
-        <category>Depositional</category>
-        
-      </item>
-    
-      <item>
-        <title>S2s Dyntopo</title>
-        <description>
-</description>
-        <pubDate>Fri, 08 Nov 2019 00:00:00 -0600</pubDate>
-        <link>/S2S-DynTopo/</link>
-        <guid isPermaLink="true">/S2S-DynTopo/</guid>
         
         
         <category>Depositional</category>
