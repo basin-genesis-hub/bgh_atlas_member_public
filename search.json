@@ -15,34 +15,6 @@
     } ,
   
     {
-      "title"       : "New_bd_post_4",
-      "date"        : "2020-06-11 00:00:00 -0500",
-      "categories"  : "surface processes",
-      "by"          : "Rhiannon Garrett",
-      "url"         : "/NEW_BD_POST_4/",
-      "icon"        : "globe",
-      "keywords"    : "",
-      "description" : {"url":"https://www.earthbyte.org/BGH_Wordpress/wp-content/uploads/2019/08/Initial_setup.png","description":"The initial setup approximates the paleotopography by subtracting the vertical movement field from the present day topography. The Lambeck et al. (2014) sea level curve is applied to the simulation for the past 35 kyr. A) The present day topography, B) the magnitude of surface uplift and subsidence over the past 35 kyr, C) the paleotopography at 35 Ka and D) present day precipitation rates."},
-      "citation"    : "",
-      "contact"     : ""
-
-    } ,
-  
-    {
-      "title"       : "New_bd_post_3",
-      "date"        : "2020-06-10 00:00:00 -0500",
-      "categories"  : "surface processes",
-      "by"          : "Rhiannon Garrett",
-      "url"         : "/NEW_BD_POST_3/",
-      "icon"        : "globe",
-      "keywords"    : "",
-      "description" : {"url":"https://www.earthbyte.org/BGH_Wordpress/wp-content/uploads/2019/08/Initial_setup.png","description":"The initial setup approximates the paleotopography by subtracting the vertical movement field from the present day topography. The Lambeck et al. (2014) sea level curve is applied to the simulation for the past 35 kyr. A) The present day topography, B) the magnitude of surface uplift and subsidence over the past 35 kyr, C) the paleotopography at 35 Ka and D) present day precipitation rates."},
-      "citation"    : "",
-      "contact"     : ""
-
-    } ,
-  
-    {
       "title"       : "New_public_template",
       "date"        : "2020-05-15 00:00:00 -0500",
       "categories"  : "Tectonic",
@@ -104,20 +76,6 @@
       "categories"  : "surface processes",
       "by"          : "Rhiannon Garrett",
       "url"         : "/NEW_BD_POST/",
-      "icon"        : "globe",
-      "keywords"    : "",
-      "description" : {"url":"https://www.earthbyte.org/BGH_Wordpress/wp-content/uploads/2019/08/Initial_setup.png","description":"The initial setup approximates the paleotopography by subtracting the vertical movement field from the present day topography. The Lambeck et al. (2014) sea level curve is applied to the simulation for the past 35 kyr. A) The present day topography, B) the magnitude of surface uplift and subsidence over the past 35 kyr, C) the paleotopography at 35 Ka and D) present day precipitation rates."},
-      "citation"    : "",
-      "contact"     : ""
-
-    } ,
-  
-    {
-      "title"       : "New_bd_post_2",
-      "date"        : "2019-12-30 00:00:00 -0600",
-      "categories"  : "surface processes",
-      "by"          : "Rhiannon Garrett",
-      "url"         : "/NEW_BD_POST_2/",
       "icon"        : "globe",
       "keywords"    : "",
       "description" : {"url":"https://www.earthbyte.org/BGH_Wordpress/wp-content/uploads/2019/08/Initial_setup.png","description":"The initial setup approximates the paleotopography by subtracting the vertical movement field from the present day topography. The Lambeck et al. (2014) sea level curve is applied to the simulation for the past 35 kyr. A) The present day topography, B) the magnitude of surface uplift and subsidence over the past 35 kyr, C) the paleotopography at 35 Ka and D) present day precipitation rates."},

@@ -7,18 +7,13 @@ cd member_backend
 touch Gemfile.lock
 chmod a+w Gemfile.lock
 jekyll build
-cd ..
-
-rm -f ./member_backend/_site/Gemfile.lock
-
-cp -rf ./member_backend/_site/* ./member_backend_jekyll_build/_site/
-cd ./member_backend_jekyll_build
 git add -A
 git commit --message "GitHub Action to re-build the website"
 git push origin
 cd ..
 
 cp -rf ./member_backend/_site/* ./member_frontend/
+
 cd ./member_frontend
 
 apk add python
