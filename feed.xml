@@ -5,8 +5,8 @@
     <description>The Atlas is a top-level visual summary of end-member numerical models that the BGH is created.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 18 Jun 2020 20:03:17 -0500</pubDate>
-    <lastBuildDate>Thu, 18 Jun 2020 20:03:17 -0500</lastBuildDate>
+    <pubDate>Fri, 19 Jun 2020 01:05:00 -0500</pubDate>
+    <lastBuildDate>Fri, 19 Jun 2020 01:05:00 -0500</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -23,64 +23,12 @@
       </item>
     
       <item>
-        <title>Public Posts Test3 Now Private Test5</title>
+        <title>Template</title>
         <description>
 </description>
-        <pubDate>Thu, 18 Jun 2020 00:00:00 -0500</pubDate>
-        <link>/Public-posts-Test3-Now-Private-Test5/</link>
-        <guid isPermaLink="true">/Public-posts-Test3-Now-Private-Test5/</guid>
-        
-        
-        <category>Tectonic</category>
-        
-      </item>
-    
-      <item>
-        <title>Public Posts Test1</title>
-        <description>
-</description>
-        <pubDate>Thu, 18 Jun 2020 00:00:00 -0500</pubDate>
-        <link>/Public-posts-Test1/</link>
-        <guid isPermaLink="true">/Public-posts-Test1/</guid>
-        
-        
-        <category>Tectonic</category>
-        
-      </item>
-    
-      <item>
-        <title>Private Posts Test2 Now Public Test4</title>
-        <description>
-</description>
-        <pubDate>Thu, 18 Jun 2020 00:00:00 -0500</pubDate>
-        <link>/Private-posts-Test2-Now-Public-Test4/</link>
-        <guid isPermaLink="true">/Private-posts-Test2-Now-Public-Test4/</guid>
-        
-        
-        <category>Tectonic</category>
-        
-      </item>
-    
-      <item>
-        <title>New_public_template</title>
-        <description>
-</description>
-        <pubDate>Fri, 15 May 2020 00:00:00 -0500</pubDate>
-        <link>/New_Public_Template/</link>
-        <guid isPermaLink="true">/New_Public_Template/</guid>
-        
-        
-        <category>Tectonic</category>
-        
-      </item>
-    
-      <item>
-        <title>New_private_template</title>
-        <description>
-</description>
-        <pubDate>Fri, 15 May 2020 00:00:00 -0500</pubDate>
-        <link>/New_Private_Template/</link>
-        <guid isPermaLink="true">/New_Private_Template/</guid>
+        <pubDate>Fri, 19 Jun 2020 00:00:00 -0500</pubDate>
+        <link>/Template/</link>
+        <guid isPermaLink="true">/Template/</guid>
         
         
         <category>Tectonic</category>
@@ -136,6 +84,58 @@
         
         
         <category>surface processes</category>
+        
+      </item>
+    
+      <item>
+        <title>Gippsland Basin</title>
+        <description>
+</description>
+        <pubDate>Thu, 26 Sep 2019 00:00:00 -0500</pubDate>
+        <link>/Gippsland-Basin/</link>
+        <guid isPermaLink="true">/Gippsland-Basin/</guid>
+        
+        
+        <category>Depositional &amp; Tectonic</category>
+        
+      </item>
+    
+      <item>
+        <title>Public Mcclay Style</title>
+        <description>
+</description>
+        <pubDate>Wed, 18 Sep 2019 00:00:00 -0500</pubDate>
+        <link>/Public-McClay-style/</link>
+        <guid isPermaLink="true">/Public-McClay-style/</guid>
+        
+        
+        <category>Tectonic</category>
+        
+      </item>
+    
+      <item>
+        <title>Australia Wide Coupled Model Since Jurassic</title>
+        <description>
+</description>
+        <pubDate>Mon, 09 Sep 2019 00:00:00 -0500</pubDate>
+        <link>/Australia-wide-coupled-model-since-Jurassic/</link>
+        <guid isPermaLink="true">/Australia-wide-coupled-model-since-Jurassic/</guid>
+        
+        
+        <category>surface processes</category>
+        
+      </item>
+    
+      <item>
+        <title>Pull Apart Basins</title>
+        <description>
+</description>
+        <pubDate>Sun, 08 Sep 2019 00:00:00 -0500</pubDate>
+        <link>/Pull-Apart-Basins/</link>
+        <guid isPermaLink="true">/Pull-Apart-Basins/</guid>
+        
+        
+        <category>Coupled</category>
         
       </item>
     
