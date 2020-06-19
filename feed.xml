@@ -5,8 +5,8 @@
     <description>The Atlas is a top-level visual summary of end-member numerical models that the BGH is created.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 18 Jun 2020 19:39:00 -0500</pubDate>
-    <lastBuildDate>Thu, 18 Jun 2020 19:39:00 -0500</lastBuildDate>
+    <pubDate>Thu, 18 Jun 2020 20:03:17 -0500</pubDate>
+    <lastBuildDate>Thu, 18 Jun 2020 20:03:17 -0500</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -55,19 +55,6 @@
         <pubDate>Thu, 18 Jun 2020 00:00:00 -0500</pubDate>
         <link>/Private-posts-Test2-Now-Public-Test4/</link>
         <guid isPermaLink="true">/Private-posts-Test2-Now-Public-Test4/</guid>
-        
-        
-        <category>Tectonic</category>
-        
-      </item>
-    
-      <item>
-        <title>Private Posts Test1</title>
-        <description>
-</description>
-        <pubDate>Thu, 18 Jun 2020 00:00:00 -0500</pubDate>
-        <link>/Private-posts-Test1/</link>
-        <guid isPermaLink="true">/Private-posts-Test1/</guid>
         
         
         <category>Tectonic</category>
@@ -136,6 +123,19 @@
         
         
         <category>Depositional</category>
+        
+      </item>
+    
+      <item>
+        <title>Gulf Of Papua</title>
+        <description>
+</description>
+        <pubDate>Tue, 29 Oct 2019 00:00:00 -0500</pubDate>
+        <link>/gulf-of-papua/</link>
+        <guid isPermaLink="true">/gulf-of-papua/</guid>
+        
+        
+        <category>surface processes</category>
         
       </item>
     
