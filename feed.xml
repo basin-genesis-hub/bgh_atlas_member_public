@@ -5,8 +5,8 @@
     <description>The Atlas is a top-level visual summary of end-member numerical models that the BGH is created.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 25 Jun 2020 23:23:53 -0500</pubDate>
-    <lastBuildDate>Thu, 25 Jun 2020 23:23:53 -0500</lastBuildDate>
+    <pubDate>Thu, 25 Jun 2020 23:48:54 -0500</pubDate>
+    <lastBuildDate>Thu, 25 Jun 2020 23:48:54 -0500</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -29,6 +29,19 @@
         <pubDate>Fri, 26 Jun 2020 00:00:00 -0500</pubDate>
         <link>/TestModel-Private/</link>
         <guid isPermaLink="true">/TestModel-Private/</guid>
+        
+        
+        <category>Tectonic</category>
+        
+      </item>
+    
+      <item>
+        <title>Test   copy</title>
+        <description>
+</description>
+        <pubDate>Fri, 26 Jun 2020 00:00:00 -0500</pubDate>
+        <link>/Test-Copy/</link>
+        <guid isPermaLink="true">/Test-Copy/</guid>
         
         
         <category>Tectonic</category>
@@ -123,19 +136,6 @@
         
         
         <category>Tectonic</category>
-        
-      </item>
-    
-      <item>
-        <title>Australia Wide Coupled Model Since Jurassic</title>
-        <description>
-</description>
-        <pubDate>Mon, 09 Sep 2019 00:00:00 -0500</pubDate>
-        <link>/Australia-wide-coupled-model-since-Jurassic/</link>
-        <guid isPermaLink="true">/Australia-wide-coupled-model-since-Jurassic/</guid>
-        
-        
-        <category>surface processes</category>
         
       </item>
     
