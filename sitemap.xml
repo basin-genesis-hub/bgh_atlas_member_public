@@ -53,10 +53,6 @@
 <lastmod>2020-06-19T00:00:00+10:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/Test-Copy/</loc>
-<lastmod>2020-06-26T00:00:00+10:00</lastmod>
-</url>
-<url>
 <loc>http://localhost:4000/TestModel-Private/</loc>
 <lastmod>2020-06-26T00:00:00+10:00</lastmod>
 </url>
@@ -95,15 +91,12 @@
 <loc>http://localhost:4000/page3/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/page4/</loc>
-</url>
-<url>
 <loc>http://localhost:4000/admin/</loc>
 <lastmod>2020-05-15T11:03:14+10:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/maps/</loc>
-<lastmod>2020-07-10T11:04:59+10:00</lastmod>
+<lastmod>2020-07-10T15:45:31+10:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/model_index.html</loc>
