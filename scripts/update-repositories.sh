@@ -6,7 +6,15 @@ git config --global user.email "michael.chin@sydney.edu.au"
 cd member_backend
 touch Gemfile.lock
 chmod a+w Gemfile.lock
+
+mv _maps_template.html maps_template.html
+
 jekyll build
+
+cp -f _site/maps_template/index.html _site/maps/index.html 
+
+mv maps_template.html _maps_template.html
+
 cd ..
 
 rm -f ./member_backend/_site/Gemfile.lock
