@@ -3,19 +3,19 @@
   <channel>
     <title>BGH Atlas</title>
     <description>The Atlas is a top-level visual summary of end-member numerical models that the BGH is created.</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 16 Jul 2020 11:33:39 +1000</pubDate>
-    <lastBuildDate>Thu, 16 Jul 2020 11:33:39 +1000</lastBuildDate>
-    <generator>Jekyll v3.8.5</generator>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 15 Jul 2020 20:53:03 -0500</pubDate>
+    <lastBuildDate>Wed, 15 Jul 2020 20:53:03 -0500</lastBuildDate>
+    <generator>Jekyll v3.8.7</generator>
     
       <item>
         <title>Gippsland Basin</title>
         <description>
 </description>
-        <pubDate>Sat, 26 Sep 2020 00:00:00 +1000</pubDate>
-        <link>http://localhost:4000/Gippsland-Basin/</link>
-        <guid isPermaLink="true">http://localhost:4000/Gippsland-Basin/</guid>
+        <pubDate>Sat, 26 Sep 2020 00:00:00 -0500</pubDate>
+        <link>/Gippsland-Basin/</link>
+        <guid isPermaLink="true">/Gippsland-Basin/</guid>
         
         
         <category>Depositional &amp; Tectonic</category>
@@ -26,9 +26,9 @@
         <title>Template_newmap</title>
         <description>
 </description>
-        <pubDate>Thu, 16 Jul 2020 00:00:00 +1000</pubDate>
-        <link>http://localhost:4000/Template_NewMap/</link>
-        <guid isPermaLink="true">http://localhost:4000/Template_NewMap/</guid>
+        <pubDate>Thu, 16 Jul 2020 00:00:00 -0500</pubDate>
+        <link>/Template_NewMap/</link>
+        <guid isPermaLink="true">/Template_NewMap/</guid>
         
         
         <category>Tectonic</category>
@@ -39,9 +39,9 @@
         <title>Testmodel Private</title>
         <description>
 </description>
-        <pubDate>Fri, 26 Jun 2020 00:00:00 +1000</pubDate>
-        <link>http://localhost:4000/TestModel-Private/</link>
-        <guid isPermaLink="true">http://localhost:4000/TestModel-Private/</guid>
+        <pubDate>Fri, 26 Jun 2020 00:00:00 -0500</pubDate>
+        <link>/TestModel-Private/</link>
+        <guid isPermaLink="true">/TestModel-Private/</guid>
         
         
         <category>Tectonic</category>
@@ -52,9 +52,9 @@
         <title>Template</title>
         <description>
 </description>
-        <pubDate>Fri, 19 Jun 2020 00:00:00 +1000</pubDate>
-        <link>http://localhost:4000/Template/</link>
-        <guid isPermaLink="true">http://localhost:4000/Template/</guid>
+        <pubDate>Fri, 19 Jun 2020 00:00:00 -0500</pubDate>
+        <link>/Template/</link>
+        <guid isPermaLink="true">/Template/</guid>
         
         
         <category>Tectonic</category>
@@ -65,9 +65,9 @@
         <title>Uncertainty Of Reconstructions By Plate Id</title>
         <description>
 </description>
-        <pubDate>Wed, 22 Jan 2020 00:00:00 +1100</pubDate>
-        <link>http://localhost:4000/Uncertainty-of-Reconstructions-by-Plate-ID/</link>
-        <guid isPermaLink="true">http://localhost:4000/Uncertainty-of-Reconstructions-by-Plate-ID/</guid>
+        <pubDate>Wed, 22 Jan 2020 00:00:00 -0600</pubDate>
+        <link>/Uncertainty-of-Reconstructions-by-Plate-ID/</link>
+        <guid isPermaLink="true">/Uncertainty-of-Reconstructions-by-Plate-ID/</guid>
         
         
         <category>surface processes</category>
@@ -78,9 +78,9 @@
         <title>S2s Stratigraphicmodelling</title>
         <description>
 </description>
-        <pubDate>Fri, 08 Nov 2019 00:00:00 +1100</pubDate>
-        <link>http://localhost:4000/S2S-StratigraphicModelling/</link>
-        <guid isPermaLink="true">http://localhost:4000/S2S-StratigraphicModelling/</guid>
+        <pubDate>Fri, 08 Nov 2019 00:00:00 -0600</pubDate>
+        <link>/S2S-StratigraphicModelling/</link>
+        <guid isPermaLink="true">/S2S-StratigraphicModelling/</guid>
         
         
         <category>Depositional</category>
@@ -91,9 +91,9 @@
         <title>S2s Dyntopo</title>
         <description>
 </description>
-        <pubDate>Fri, 08 Nov 2019 00:00:00 +1100</pubDate>
-        <link>http://localhost:4000/S2S-DynTopo/</link>
-        <guid isPermaLink="true">http://localhost:4000/S2S-DynTopo/</guid>
+        <pubDate>Fri, 08 Nov 2019 00:00:00 -0600</pubDate>
+        <link>/S2S-DynTopo/</link>
+        <guid isPermaLink="true">/S2S-DynTopo/</guid>
         
         
         <category>Depositional</category>
@@ -104,9 +104,9 @@
         <title>Gulf Of Papua</title>
         <description>
 </description>
-        <pubDate>Tue, 29 Oct 2019 00:00:00 +1100</pubDate>
-        <link>http://localhost:4000/gulf-of-papua/</link>
-        <guid isPermaLink="true">http://localhost:4000/gulf-of-papua/</guid>
+        <pubDate>Tue, 29 Oct 2019 00:00:00 -0500</pubDate>
+        <link>/gulf-of-papua/</link>
+        <guid isPermaLink="true">/gulf-of-papua/</guid>
         
         
         <category>surface processes</category>
@@ -117,9 +117,9 @@
         <title>Gippsland Basin</title>
         <description>
 </description>
-        <pubDate>Thu, 26 Sep 2019 00:00:00 +1000</pubDate>
-        <link>http://localhost:4000/Gippsland-Basin/</link>
-        <guid isPermaLink="true">http://localhost:4000/Gippsland-Basin/</guid>
+        <pubDate>Thu, 26 Sep 2019 00:00:00 -0500</pubDate>
+        <link>/Gippsland-Basin/</link>
+        <guid isPermaLink="true">/Gippsland-Basin/</guid>
         
         
         <category>Depositional &amp; Tectonic</category>
@@ -130,9 +130,9 @@
         <title>Public Mcclay Style</title>
         <description>
 </description>
-        <pubDate>Wed, 18 Sep 2019 00:00:00 +1000</pubDate>
-        <link>http://localhost:4000/Public-McClay-style/</link>
-        <guid isPermaLink="true">http://localhost:4000/Public-McClay-style/</guid>
+        <pubDate>Wed, 18 Sep 2019 00:00:00 -0500</pubDate>
+        <link>/Public-McClay-style/</link>
+        <guid isPermaLink="true">/Public-McClay-style/</guid>
         
         
         <category>Tectonic</category>

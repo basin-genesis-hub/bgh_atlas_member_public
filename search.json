@@ -2,7 +2,7 @@
   
     {
       "title"       : "Gippsland Basin",
-      "date"        : "2020-09-26 00:00:00 +1000",
+      "date"        : "2020-09-26 00:00:00 -0500",
       "categories"  : "Depositional & Tectonic",
       "by"          : "Xuemei(Linda) Yang, Greg Smith",
       "url"         : "/Gippsland-Basin/",
@@ -16,7 +16,7 @@
   
     {
       "title"       : "Template_newmap",
-      "date"        : "2020-07-16 00:00:00 +1000",
+      "date"        : "2020-07-16 00:00:00 -0500",
       "categories"  : "Tectonic",
       "by"          : "XYZ - BGH and Earthbyte Research Group, The University of Sydney",
       "url"         : "/Template_NewMap/",
@@ -30,7 +30,7 @@
   
     {
       "title"       : "Testmodel Private",
-      "date"        : "2020-06-26 00:00:00 +1000",
+      "date"        : "2020-06-26 00:00:00 -0500",
       "categories"  : "Tectonic",
       "by"          : "Patrice F. Rey - BGH and Earthbyte Research Group, The University of Sydney, patrice.rey@sydney.edu.au",
       "url"         : "/TestModel-Private/",
@@ -44,7 +44,7 @@
   
     {
       "title"       : "Template",
-      "date"        : "2020-06-19 00:00:00 +1000",
+      "date"        : "2020-06-19 00:00:00 -0500",
       "categories"  : "Tectonic",
       "by"          : "XYZ - BGH and Earthbyte Research Group, The University of Sydney",
       "url"         : "/Template/",
@@ -58,7 +58,7 @@
   
     {
       "title"       : "Uncertainty Of Reconstructions By Plate Id",
-      "date"        : "2020-01-22 00:00:00 +1100",
+      "date"        : "2020-01-22 00:00:00 -0600",
       "categories"  : "surface processes",
       "by"          : "Ben R. Mather - EarthByte Group, The University of Sydney",
       "url"         : "/Uncertainty-of-Reconstructions-by-Plate-ID/",
@@ -72,7 +72,7 @@
   
     {
       "title"       : "S2s Stratigraphicmodelling",
-      "date"        : "2019-11-08 00:00:00 +1100",
+      "date"        : "2019-11-08 00:00:00 -0600",
       "categories"  : "Depositional",
       "by"          : "Xuesong Ding, Tristan Salles, Nicolas Flament, Patrice Rey",
       "url"         : "/S2S-StratigraphicModelling/",
@@ -86,7 +86,7 @@
   
     {
       "title"       : "S2s Dyntopo",
-      "date"        : "2019-11-08 00:00:00 +1100",
+      "date"        : "2019-11-08 00:00:00 -0600",
       "categories"  : "Depositional",
       "by"          : "Xuesong Ding, Tristan Salles, Nicolas Flament, Claire Mallard, Patrice Rey",
       "url"         : "/S2S-DynTopo/",
@@ -100,7 +100,7 @@
   
     {
       "title"       : "Gulf Of Papua",
-      "date"        : "2019-10-29 00:00:00 +1100",
+      "date"        : "2019-10-29 00:00:00 -0500",
       "categories"  : "surface processes",
       "by"          : "Rhiannon Garrett",
       "url"         : "/gulf-of-papua/",
@@ -114,7 +114,7 @@
   
     {
       "title"       : "Gippsland Basin",
-      "date"        : "2019-09-26 00:00:00 +1000",
+      "date"        : "2019-09-26 00:00:00 -0500",
       "categories"  : "Depositional & Tectonic",
       "by"          : "Xuemei(Linda) Yang, Greg Smith",
       "url"         : "/Gippsland-Basin/",
@@ -128,7 +128,7 @@
   
     {
       "title"       : "Public Mcclay Style",
-      "date"        : "2019-09-18 00:00:00 +1000",
+      "date"        : "2019-09-18 00:00:00 -0500",
       "categories"  : "Tectonic",
       "by"          : "Patrice F. Rey - BGH and Earthbyte Research Group, The University of Sydney, patrice.rey@sydney.edu.au",
       "url"         : "/Public-McClay-style/",
@@ -142,7 +142,7 @@
   
     {
       "title"       : "Australia Wide Coupled Model Since Jurassic",
-      "date"        : "2019-09-09 00:00:00 +1000",
+      "date"        : "2019-09-09 00:00:00 -0500",
       "categories"  : "surface processes",
       "by"          : "Laura Harrington, S. Zahirovic, T. Salles, C. Braz & R.D. Müller",
       "url"         : "/Australia-wide-coupled-model-since-Jurassic/",
@@ -156,7 +156,7 @@
   
     {
       "title"       : "Pull Apart Basins",
-      "date"        : "2019-09-08 00:00:00 +1000",
+      "date"        : "2019-09-08 00:00:00 -0500",
       "categories"  : "Coupled",
       "by"          : "Patrice F. Rey, Tristan Salles, Claire Mallard, Luke Hardiman, Romain Beucher - BGH and Earthbyte Research Group, The University of Sydney, patrice.rey@sydney.edu.au",
       "url"         : "/Pull-Apart-Basins/",
@@ -170,7 +170,7 @@
   
     {
       "title"       : "Mcclay Style",
-      "date"        : "2019-09-08 00:00:00 +1000",
+      "date"        : "2019-09-08 00:00:00 -0500",
       "categories"  : "Tectonic",
       "by"          : "Patrice F. Rey - BGH and Earthbyte Research Group, The University of Sydney, patrice.rey@sydney.edu.au",
       "url"         : "/McClay-style/",
@@ -184,7 +184,7 @@
   
     {
       "title"       : "2t Rift Coupled",
-      "date"        : "2019-07-30 00:00:00 +1000",
+      "date"        : "2019-07-30 00:00:00 -0500",
       "categories"  : "coupled",
       "by"          : "Romain Beucher",
       "url"         : "/2T-rift-coupled/",
@@ -198,7 +198,7 @@
   
     {
       "title"       : "Point Source Delta",
-      "date"        : "2019-07-29 00:00:00 +1000",
+      "date"        : "2019-07-29 00:00:00 -0500",
       "categories"  : "surface processes",
       "by"          : "Sara Morón",
       "url"         : "/point-source-delta/",
@@ -212,7 +212,7 @@
   
     {
       "title"       : "Continental Accretion",
-      "date"        : "2019-07-29 00:00:00 +1000",
+      "date"        : "2019-07-29 00:00:00 -0500",
       "categories"  : "tectonic",
       "by"          : "L. Moresi, P. G. Betts, M. S. Miller & R. A. Cayley",
       "url"         : "/continental-accretion/",
