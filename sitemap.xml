@@ -57,6 +57,10 @@
 <lastmod>2020-06-26T00:00:00+10:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/Template_NewMap/</loc>
+<lastmod>2020-07-16T00:00:00+10:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/Gippsland-Basin/</loc>
 <lastmod>2020-09-26T00:00:00+10:00</lastmod>
 </url>
@@ -76,9 +80,6 @@
 <loc>http://localhost:4000/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/maps_template/</loc>
-</url>
-<url>
 <loc>http://localhost:4000/old_index/</loc>
 </url>
 <url>
@@ -92,6 +93,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/page3/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/page4/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/admin/</loc>
