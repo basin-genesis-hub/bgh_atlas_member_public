@@ -5,8 +5,8 @@
     <description>The Atlas is a top-level visual summary of end-member numerical models that the BGH is created.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 16 Jul 2020 22:12:27 -0500</pubDate>
-    <lastBuildDate>Thu, 16 Jul 2020 22:12:27 -0500</lastBuildDate>
+    <pubDate>Thu, 16 Jul 2020 22:25:43 -0500</pubDate>
+    <lastBuildDate>Thu, 16 Jul 2020 22:25:43 -0500</lastBuildDate>
     <generator>Jekyll v3.8.7</generator>
     
       <item>
@@ -62,6 +62,58 @@
       </item>
     
       <item>
+        <title>Template   slipmovie</title>
+        <description>
+</description>
+        <pubDate>Fri, 19 Jun 2020 00:00:00 -0500</pubDate>
+        <link>/Template-slipmovie/</link>
+        <guid isPermaLink="true">/Template-slipmovie/</guid>
+        
+        
+        <category>Tectonic</category>
+        
+      </item>
+    
+      <item>
+        <title>Template   riftmovie</title>
+        <description>
+</description>
+        <pubDate>Fri, 19 Jun 2020 00:00:00 -0500</pubDate>
+        <link>/Template-riftmovie/</link>
+        <guid isPermaLink="true">/Template-riftmovie/</guid>
+        
+        
+        <category>Tectonic</category>
+        
+      </item>
+    
+      <item>
+        <title>Template   flexmovie</title>
+        <description>
+</description>
+        <pubDate>Fri, 19 Jun 2020 00:00:00 -0500</pubDate>
+        <link>/Template-flexmovie/</link>
+        <guid isPermaLink="true">/Template-flexmovie/</guid>
+        
+        
+        <category>Tectonic</category>
+        
+      </item>
+    
+      <item>
+        <title>Template   basinmovie</title>
+        <description>
+</description>
+        <pubDate>Fri, 19 Jun 2020 00:00:00 -0500</pubDate>
+        <link>/Template-basinmovie/</link>
+        <guid isPermaLink="true">/Template-basinmovie/</guid>
+        
+        
+        <category>Tectonic</category>
+        
+      </item>
+    
+      <item>
         <title>Uncertainty Of Reconstructions By Plate Id</title>
         <description>
 </description>
@@ -84,58 +136,6 @@
         
         
         <category>Depositional</category>
-        
-      </item>
-    
-      <item>
-        <title>S2s Dyntopo</title>
-        <description>
-</description>
-        <pubDate>Fri, 08 Nov 2019 00:00:00 -0600</pubDate>
-        <link>/S2S-DynTopo/</link>
-        <guid isPermaLink="true">/S2S-DynTopo/</guid>
-        
-        
-        <category>Depositional</category>
-        
-      </item>
-    
-      <item>
-        <title>Gulf Of Papua</title>
-        <description>
-</description>
-        <pubDate>Tue, 29 Oct 2019 00:00:00 -0500</pubDate>
-        <link>/gulf-of-papua/</link>
-        <guid isPermaLink="true">/gulf-of-papua/</guid>
-        
-        
-        <category>surface processes</category>
-        
-      </item>
-    
-      <item>
-        <title>Gippsland Basin</title>
-        <description>
-</description>
-        <pubDate>Thu, 26 Sep 2019 00:00:00 -0500</pubDate>
-        <link>/Gippsland-Basin/</link>
-        <guid isPermaLink="true">/Gippsland-Basin/</guid>
-        
-        
-        <category>Depositional &amp; Tectonic</category>
-        
-      </item>
-    
-      <item>
-        <title>Public Mcclay Style</title>
-        <description>
-</description>
-        <pubDate>Wed, 18 Sep 2019 00:00:00 -0500</pubDate>
-        <link>/Public-McClay-style/</link>
-        <guid isPermaLink="true">/Public-McClay-style/</guid>
-        
-        
-        <category>Tectonic</category>
         
       </item>
     
