@@ -32,8 +32,8 @@ git push origin
 cd ..
 
 cp -rf ./member_backend/_site/* ./member_frontend/
-cd ./member_frontend
 
+cd ./member_frontend
 apk add python
 python3 replace_html.py
 
@@ -43,6 +43,14 @@ git push origin
 cd ..
 
 cd ./public
+
+mv _maps_template.html maps_template.html
+jekyll build
+
+mkdir _site/maps
+cp -f _site/maps_template/index.html _site/maps/index.html 
+mv maps_template.html _maps_template.html
+
 git add -A
 git commit --message "GitHub Action to update public website"
 git push origin
