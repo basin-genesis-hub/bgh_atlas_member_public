@@ -5,8 +5,8 @@
     <description>The Atlas is a top-level visual summary of end-member numerical models that the BGH is created.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 23 Jul 2020 00:26:27 -0500</pubDate>
-    <lastBuildDate>Thu, 23 Jul 2020 00:26:27 -0500</lastBuildDate>
+    <pubDate>Thu, 23 Jul 2020 18:38:15 -0500</pubDate>
+    <lastBuildDate>Thu, 23 Jul 2020 18:38:15 -0500</lastBuildDate>
     <generator>Jekyll v3.8.7</generator>
     
       <item>
@@ -19,6 +19,58 @@
         
         
         <category>Depositional &amp; Tectonic</category>
+        
+      </item>
+    
+      <item>
+        <title>Strike Slip</title>
+        <description>
+</description>
+        <pubDate>Thu, 23 Jul 2020 00:00:00 -0500</pubDate>
+        <link>/Strike-Slip/</link>
+        <guid isPermaLink="true">/Strike-Slip/</guid>
+        
+        
+        <category>Tectonic</category>
+        
+      </item>
+    
+      <item>
+        <title>Rift</title>
+        <description>
+</description>
+        <pubDate>Thu, 23 Jul 2020 00:00:00 -0500</pubDate>
+        <link>/Rift/</link>
+        <guid isPermaLink="true">/Rift/</guid>
+        
+        
+        <category>Tectonic</category>
+        
+      </item>
+    
+      <item>
+        <title>Flexure</title>
+        <description>
+</description>
+        <pubDate>Thu, 23 Jul 2020 00:00:00 -0500</pubDate>
+        <link>/Flexure/</link>
+        <guid isPermaLink="true">/Flexure/</guid>
+        
+        
+        <category>Tectonic</category>
+        
+      </item>
+    
+      <item>
+        <title>Basin</title>
+        <description>
+</description>
+        <pubDate>Thu, 23 Jul 2020 00:00:00 -0500</pubDate>
+        <link>/Basin/</link>
+        <guid isPermaLink="true">/Basin/</guid>
+        
+        
+        <category>Tectonic</category>
         
       </item>
     
@@ -55,58 +107,6 @@
         <pubDate>Fri, 19 Jun 2020 00:00:00 -0500</pubDate>
         <link>/Template/</link>
         <guid isPermaLink="true">/Template/</guid>
-        
-        
-        <category>Tectonic</category>
-        
-      </item>
-    
-      <item>
-        <title>Template   slipmovie</title>
-        <description>
-</description>
-        <pubDate>Fri, 19 Jun 2020 00:00:00 -0500</pubDate>
-        <link>/Template-slipmovie/</link>
-        <guid isPermaLink="true">/Template-slipmovie/</guid>
-        
-        
-        <category>Tectonic</category>
-        
-      </item>
-    
-      <item>
-        <title>Template   riftmovie</title>
-        <description>
-</description>
-        <pubDate>Fri, 19 Jun 2020 00:00:00 -0500</pubDate>
-        <link>/Template-riftmovie/</link>
-        <guid isPermaLink="true">/Template-riftmovie/</guid>
-        
-        
-        <category>Tectonic</category>
-        
-      </item>
-    
-      <item>
-        <title>Template   flexmovie</title>
-        <description>
-</description>
-        <pubDate>Fri, 19 Jun 2020 00:00:00 -0500</pubDate>
-        <link>/Template-flexmovie/</link>
-        <guid isPermaLink="true">/Template-flexmovie/</guid>
-        
-        
-        <category>Tectonic</category>
-        
-      </item>
-    
-      <item>
-        <title>Template   basinmovie</title>
-        <description>
-</description>
-        <pubDate>Fri, 19 Jun 2020 00:00:00 -0500</pubDate>
-        <link>/Template-basinmovie/</link>
-        <guid isPermaLink="true">/Template-basinmovie/</guid>
         
         
         <category>Tectonic</category>
