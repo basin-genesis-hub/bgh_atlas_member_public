@@ -43,6 +43,8 @@ git push origin
 cd ..
 
 cd ./public
+touch Gemfile.lock
+chmod a+w Gemfile.lock
 
 mv _maps_template.html maps_template.html
 jekyll build
