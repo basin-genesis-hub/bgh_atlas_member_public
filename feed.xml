@@ -5,9 +5,22 @@
     <description>The Atlas is a top-level visual summary of end-member numerical models that the BGH is created.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 14 Aug 2020 19:57:36 -0500</pubDate>
-    <lastBuildDate>Fri, 14 Aug 2020 19:57:36 -0500</lastBuildDate>
+    <pubDate>Wed, 19 Aug 2020 06:18:21 -0500</pubDate>
+    <lastBuildDate>Wed, 19 Aug 2020 06:18:21 -0500</lastBuildDate>
     <generator>Jekyll v3.8.7</generator>
+    
+      <item>
+        <title>The evolution of the great artesian basin</title>
+        <description>
+</description>
+        <pubDate>Wed, 19 Aug 2020 00:00:00 -0500</pubDate>
+        <link>/The-evolution-of-the-Great-Artesian-Basin/</link>
+        <guid isPermaLink="true">/The-evolution-of-the-Great-Artesian-Basin/</guid>
+        
+        
+        <category>Tectonic</category>
+        
+      </item>
     
       <item>
         <title>Strike Slip</title>
@@ -123,19 +136,6 @@
         
         
         <category>Depositional &amp; Tectonic</category>
-        
-      </item>
-    
-      <item>
-        <title>Australia Wide Coupled Model Since Jurassic</title>
-        <description>
-</description>
-        <pubDate>Mon, 09 Sep 2019 00:00:00 -0500</pubDate>
-        <link>/Australia-wide-coupled-model-since-Jurassic/</link>
-        <guid isPermaLink="true">/Australia-wide-coupled-model-since-Jurassic/</guid>
-        
-        
-        <category>surface processes</category>
         
       </item>
     
