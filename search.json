@@ -1,7 +1,7 @@
 [
   
     {
-      "title"       : "The evolution of the great artesian basin",
+      "title"       : "The Evolution Of The Great Artesian Basin",
       "date"        : "2020-08-19 00:00:00 -0500",
       "categories"  : "Tectonic",
       "by"          : "Carmen Braz, Sabin Zahirovic, Tristan Salles, Nicolas Flament, Lauren Harrington and Dietmar Muller",
@@ -11,6 +11,20 @@
       "description" : {"url":"https://www.earthbyte.org/BGH_Wordpress/wp-content/uploads/2020/08/Fig.-2.png","description":"(A) Combined and paleogeography of the Australian continent (AUS) and New Guinea (NG) from Struckmeyer and Totterdell (1990) and Norvick (2003). Reconstructed positions of future rifted continental blocks of Antarctica (ANT), Greater India (IND), Lord Howe Rise (LHR) and the future collisional Sepik Terrane (SP). Tasman Line divides the model surface into regions of relatively high (east) and low (west) erodibility. Estimated elevations for each paleoenvironment was used to generate the initial paleo-topography (B)."},
       "citation"    : "",
       "contact"     : "carmen.braz@sydney.edu.au"
+
+    } ,
+  
+    {
+      "title"       : "Papua New Guinea 2d Local Scale Model.md",
+      "date"        : "2020-08-19 00:00:00 -0500",
+      "categories"  : "Tectonic",
+      "by"          : "Youseph Ibrahim",
+      "url"         : "/Papua-New-Guinea-2D-Local-scale-Model.md/",
+      "icon"        : "globe",
+      "keywords"    : "Fold and Thrust Belt Papua New Guinea",
+      "description" : {"url":"https://www.earthbyte.org/BGH_Wordpress/wp-content/uploads/2020/08/Model_B_Setup.png","description":"This suite of experiments was run to explore the interaction between the two converging structural trends within the Gobe region of the Papuan Fold Belt. The model domain is 42 km long and 17.4 km wide, with a grid resolution of 80 m. From top to bottom the model contains an air-like layer, the sedimentary package, basement, and a rigid base that is used to implement our isostasy boundary condition. Prelimanary experiments were run to calibrate the mechanical stratigraphy for the New Guinea fold belt, and have arrived at the rheological parameters shown in the table below. The rheology for each layer is reflective of its competence relative to the entire multilayer.\nThe top wall of the model employs a free movement boundary condition. The bottom wall has free movement in the X direction and an isostasy boundary condition in the Y direction. On the right wall, we apply a variable boundary condition, pushing the basement by 0.7 cm/yr and the sedimentary stack at 2cm/yr. On the left wall we apply a variable boundary condition, where the rigid base block underlying the basement is evacuated out of the model at the same velocity as it enters from the right wall. This allows our rigid base to act as a conveyor belt. We apply a velocity gradient from the top of the rigid base to the bottom of the basement, over 500m, to ease the transition to a horizontally fixed boundary condition, employing the left wall to act as a backstop. A psuedo-isostatic boundary condition is employed at the base. The pressure at the base of the model is calculated and held constant through time, by updating the vertical velocity at the base of the model at each timestep. "},
+      "citation"    : "",
+      "contact"     : "yibr0590@uni.sydney.edu.au"
 
     } ,
   
