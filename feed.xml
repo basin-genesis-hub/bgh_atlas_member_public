@@ -5,30 +5,17 @@
     <description>The Atlas is a top-level visual summary of end-member numerical models that the BGH is created.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 17 Jun 2020 22:18:40 -0500</pubDate>
-    <lastBuildDate>Wed, 17 Jun 2020 22:18:40 -0500</lastBuildDate>
-    <generator>Jekyll v3.8.5</generator>
+    <pubDate>Thu, 20 Aug 2020 23:10:39 -0500</pubDate>
+    <lastBuildDate>Thu, 20 Aug 2020 23:10:39 -0500</lastBuildDate>
+    <generator>Jekyll v3.8.7</generator>
     
       <item>
-        <title>Gippsland Basin</title>
+        <title>The evolution of the great artesian basin</title>
         <description>
 </description>
-        <pubDate>Sat, 26 Sep 2020 00:00:00 -0500</pubDate>
-        <link>/Gippsland-Basin/</link>
-        <guid isPermaLink="true">/Gippsland-Basin/</guid>
-        
-        
-        <category>Depositional &amp; Tectonic</category>
-        
-      </item>
-    
-      <item>
-        <title>Public Posts Test1</title>
-        <description>
-</description>
-        <pubDate>Thu, 18 Jun 2020 00:00:00 -0500</pubDate>
-        <link>/Public-posts-Test1/</link>
-        <guid isPermaLink="true">/Public-posts-Test1/</guid>
+        <pubDate>Wed, 19 Aug 2020 00:00:00 -0500</pubDate>
+        <link>/The-evolution-of-the-Great-Artesian-Basin/</link>
+        <guid isPermaLink="true">/The-evolution-of-the-Great-Artesian-Basin/</guid>
         
         
         <category>Tectonic</category>
@@ -36,12 +23,12 @@
       </item>
     
       <item>
-        <title>Private Posts Test1</title>
+        <title>Strike Slip</title>
         <description>
 </description>
-        <pubDate>Thu, 18 Jun 2020 00:00:00 -0500</pubDate>
-        <link>/Private-posts-Test1/</link>
-        <guid isPermaLink="true">/Private-posts-Test1/</guid>
+        <pubDate>Thu, 23 Jul 2020 00:00:00 -0500</pubDate>
+        <link>/Strike-Slip/</link>
+        <guid isPermaLink="true">/Strike-Slip/</guid>
         
         
         <category>Tectonic</category>
@@ -49,12 +36,12 @@
       </item>
     
       <item>
-        <title>New_public_template</title>
+        <title>Rift</title>
         <description>
 </description>
-        <pubDate>Fri, 15 May 2020 00:00:00 -0500</pubDate>
-        <link>/New_Public_Template/</link>
-        <guid isPermaLink="true">/New_Public_Template/</guid>
+        <pubDate>Thu, 23 Jul 2020 00:00:00 -0500</pubDate>
+        <link>/Rift/</link>
+        <guid isPermaLink="true">/Rift/</guid>
         
         
         <category>Tectonic</category>
@@ -62,12 +49,38 @@
       </item>
     
       <item>
-        <title>New_private_template</title>
+        <title>Flexure</title>
         <description>
 </description>
-        <pubDate>Fri, 15 May 2020 00:00:00 -0500</pubDate>
-        <link>/New_Private_Template/</link>
-        <guid isPermaLink="true">/New_Private_Template/</guid>
+        <pubDate>Thu, 23 Jul 2020 00:00:00 -0500</pubDate>
+        <link>/Flexure/</link>
+        <guid isPermaLink="true">/Flexure/</guid>
+        
+        
+        <category>Tectonic</category>
+        
+      </item>
+    
+      <item>
+        <title>Basin</title>
+        <description>
+</description>
+        <pubDate>Thu, 23 Jul 2020 00:00:00 -0500</pubDate>
+        <link>/Basin/</link>
+        <guid isPermaLink="true">/Basin/</guid>
+        
+        
+        <category>Tectonic</category>
+        
+      </item>
+    
+      <item>
+        <title>Test Public Map</title>
+        <description>
+</description>
+        <pubDate>Fri, 19 Jun 2020 00:00:00 -0500</pubDate>
+        <link>/Test-public-map/</link>
+        <guid isPermaLink="true">/Test-public-map/</guid>
         
         
         <category>Tectonic</category>
@@ -123,19 +136,6 @@
         
         
         <category>surface processes</category>
-        
-      </item>
-    
-      <item>
-        <title>Gippsland Basin</title>
-        <description>
-</description>
-        <pubDate>Thu, 26 Sep 2019 00:00:00 -0500</pubDate>
-        <link>/Gippsland-Basin/</link>
-        <guid isPermaLink="true">/Gippsland-Basin/</guid>
-        
-        
-        <category>Depositional &amp; Tectonic</category>
         
       </item>
     

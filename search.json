@@ -1,72 +1,86 @@
 [
   
     {
-      "title"       : "Gippsland Basin",
-      "date"        : "2020-09-26 00:00:00 -0500",
-      "categories"  : "Depositional & Tectonic",
-      "by"          : "Xuemei(Linda) Yang, Greg Smith",
-      "url"         : "/Gippsland-Basin/",
+      "title"       : "The evolution of the great artesian basin",
+      "date"        : "2020-08-19 00:00:00 -0500",
+      "categories"  : "Tectonic",
+      "by"          : "Carmen Braz, Sabin Zahirovic, Tristan Salles, Nicolas Flament, Lauren Harrington and Dietmar Muller",
+      "url"         : "/The-evolution-of-the-Great-Artesian-Basin/",
       "icon"        : "globe",
-      "keywords"    : "",
-      "description" : {"url":"https://www.earthbyte.org/BGH_Wordpress/wp-content/uploads/2019/09/model-setup.jpg","description":"The thickness maps are input as burial displacement maps to simulate extension/subsidence history. The input maps are generated from the 3D realistic Petrel model.  This model is based on seismic interpretation of all the open file 3D and 2D seismic surveys and correlation of over 250 offshore wells and more than 1000 onshore wells or bores. The interpreted seismic surfaces and well data are used to create thickness maps between the main horizons (e.g. topography, mid Miocene, top Latrobe Group, base Tertiary, top Strzelecki Group, top Basement)."},
+      "keywords"    : "Kinematics Sediment",
+      "description" : {"url":"https://www.earthbyte.org/BGH_Wordpress/wp-content/uploads/2020/08/Fig.-2.png","description":"(A) Combined and paleogeography of the Australian continent (AUS) and New Guinea (NG) from Struckmeyer and Totterdell (1990) and Norvick (2003). Reconstructed positions of future rifted continental blocks of Antarctica (ANT), Greater India (IND), Lord Howe Rise (LHR) and the future collisional Sepik Terrane (SP). Tasman Line divides the model surface into regions of relatively high (east) and low (west) erodibility. Estimated elevations for each paleoenvironment was used to generate the initial paleo-topography (B)."},
       "citation"    : "",
-      "contact"     : "xuemei.yang@postgrad.curtin.edu.au ; gregory.c.smith@curtin.edu.au"
+      "contact"     : "carmen.braz@sydney.edu.au"
 
     } ,
   
     {
-      "title"       : "Public Posts Test1",
-      "date"        : "2020-06-18 00:00:00 -0500",
+      "title"       : "Strike Slip",
+      "date"        : "2020-07-23 00:00:00 -0500",
       "categories"  : "Tectonic",
-      "by"          : "Patrice F. Rey - BGH and Earthbyte Research Group, The University of Sydney, patrice.rey@sydney.edu.au",
-      "url"         : "/Public-posts-Test1/",
+      "by"          : "Tristan Salles",
+      "url"         : "/Strike-Slip/",
       "icon"        : "globe",
-      "keywords"    : "",
-      "description" : {"url":"https://www.earthbyte.org/BGH_Wordpress/wp-content/uploads/2019/09/McClay_InternalCondition-1.png","description":"This suite of experiments is inspired by similar sandbox analog models from Kent McClay. Here, the aim is to develop an Underworld 2D template capable of matching the modelling outcomes of the best sandbox experiments. Our template represents a domain 144 km long and 36 km deep, the top 12 km of which is made of air-like material. There is 16 km of sedimentary rocks (pre-rift sequence) distributed over 10 layers, the top 10 are 1.5 km thick. Underneath, there is 8 km of stronger rocks (i.e. larger cohesion and coefficient of friction). We include a salt-like layer (constant density 2000 kg/m3, viscosity 1e19 Pa.s), either at the surface of the model, or within top section of the pre-rift sequence. The density of the sediments increases with depth either incrementaly or following a dependence on the confining pressure to simulate compaction. During extension, the progressive burial of the salt layer under sediments of increasing density results in a density inversion. In some models we impose a pseudo-isostatic condition at the base of the model, to maintain the lithostatic pressure constant. The wall to the right moves away at 2 cm/yr. To mimic sandbox kinematic boundary conditions, we i/ turn off the isostasy, ii/ impose a constant velocity at the base of the model, as well as on the vertical wall on the left where it meets with the lower basal layer, and iii/ we add a thin, low viscosity layer, to decouple the sedimentary sequence from the backstop and the bottom layer."},
-      "citation"    : "Patrice F. Rey, 2019:",
-      "contact"     : ""
+      "keywords"    : "Kinematics Sediment",
+      "description" : {"url":"https://www.earthbyte.org/BGH_Wordpress/wp-content/uploads/2020/07/strike_slip_setup_terr.png","description":"This suite of experiments is inspired by similar sandbox analog models from Kent McClay. Here, the aim is to develop an Underworld 2D template capable of matching the modelling outcomes of the best sandbox experiments. Our template represents a domain 144 km long and 36 km deep, the top 12 km of which is made of air-like material. There is 16 km of sedimentary rocks (pre-rift sequence) distributed over 10 layers, the top 10 are 1.5 km thick. Underneath, there is 8 km of stronger rocks (i.e. larger cohesion and coefficient of friction). We include a salt-like layer (constant density 2000 kg/m3, viscosity 1e19 Pa.s), either at the surface of the model, or within top section of the pre-rift sequence. The density of the sediments increases with depth either incrementaly or following a dependence on the confining pressure to simulate compaction. During extension, the progressive burial of the salt layer under sediments of increasing density results in a density inversion. In some models we impose a pseudo-isostatic condition at the base of the model, to maintain the lithostatic pressure constant. The wall to the right moves away at 2 cm/yr. To mimic sandbox kinematic boundary conditions, we i/ turn off the isostasy, ii/ impose a constant velocity at the base of the model, as well as on the vertical wall on the left where it meets with the lower basal layer, and iii/ we add a thin, low viscosity layer, to decouple the sedimentary sequence from the backstop and the bottom layer."},
+      "citation"    : "",
+      "contact"     : "tristan.salles@sydney.edu.au"
 
     } ,
   
     {
-      "title"       : "Private Posts Test1",
-      "date"        : "2020-06-18 00:00:00 -0500",
+      "title"       : "Rift",
+      "date"        : "2020-07-23 00:00:00 -0500",
       "categories"  : "Tectonic",
-      "by"          : "Patrice F. Rey - BGH and Earthbyte Research Group, The University of Sydney, patrice.rey@sydney.edu.au",
-      "url"         : "/Private-posts-Test1/",
+      "by"          : "Tristan Salles",
+      "url"         : "/Rift/",
       "icon"        : "globe",
-      "keywords"    : "",
-      "description" : {"url":"https://www.earthbyte.org/BGH_Wordpress/wp-content/uploads/2019/09/McClay_InternalCondition-1.png","description":"This suite of experiments is inspired by similar sandbox analog models from Kent McClay. Here, the aim is to develop an Underworld 2D template capable of matching the modelling outcomes of the best sandbox experiments. Our template represents a domain 144 km long and 36 km deep, the top 12 km of which is made of air-like material. There is 16 km of sedimentary rocks (pre-rift sequence) distributed over 10 layers, the top 10 are 1.5 km thick. Underneath, there is 8 km of stronger rocks (i.e. larger cohesion and coefficient of friction). We include a salt-like layer (constant density 2000 kg/m3, viscosity 1e19 Pa.s), either at the surface of the model, or within top section of the pre-rift sequence. The density of the sediments increases with depth either incrementaly or following a dependence on the confining pressure to simulate compaction. During extension, the progressive burial of the salt layer under sediments of increasing density results in a density inversion. In some models we impose a pseudo-isostatic condition at the base of the model, to maintain the lithostatic pressure constant. The wall to the right moves away at 2 cm/yr. To mimic sandbox kinematic boundary conditions, we i/ turn off the isostasy, ii/ impose a constant velocity at the base of the model, as well as on the vertical wall on the left where it meets with the lower basal layer, and iii/ we add a thin, low viscosity layer, to decouple the sedimentary sequence from the backstop and the bottom layer."},
-      "citation"    : "Patrice F. Rey, 2019:",
-      "contact"     : ""
+      "keywords"    : "Kinematics Sediment",
+      "description" : {"url":"https://www.earthbyte.org/BGH_Wordpress/wp-content/uploads/2020/07/rift_setup.png","description":"This suite of experiments is inspired by similar sandbox analog models from Kent McClay. Here, the aim is to develop an Underworld 2D template capable of matching the modelling outcomes of the best sandbox experiments. Our template represents a domain 144 km long and 36 km deep, the top 12 km of which is made of air-like material. There is 16 km of sedimentary rocks (pre-rift sequence) distributed over 10 layers, the top 10 are 1.5 km thick. Underneath, there is 8 km of stronger rocks (i.e. larger cohesion and coefficient of friction). We include a salt-like layer (constant density 2000 kg/m3, viscosity 1e19 Pa.s), either at the surface of the model, or within top section of the pre-rift sequence. The density of the sediments increases with depth either incrementaly or following a dependence on the confining pressure to simulate compaction. During extension, the progressive burial of the salt layer under sediments of increasing density results in a density inversion. In some models we impose a pseudo-isostatic condition at the base of the model, to maintain the lithostatic pressure constant. The wall to the right moves away at 2 cm/yr. To mimic sandbox kinematic boundary conditions, we i/ turn off the isostasy, ii/ impose a constant velocity at the base of the model, as well as on the vertical wall on the left where it meets with the lower basal layer, and iii/ we add a thin, low viscosity layer, to decouple the sedimentary sequence from the backstop and the bottom layer."},
+      "citation"    : "",
+      "contact"     : "tristan.salles@sydney.edu.au"
 
     } ,
   
     {
-      "title"       : "New_public_template",
-      "date"        : "2020-05-15 00:00:00 -0500",
+      "title"       : "Flexure",
+      "date"        : "2020-07-23 00:00:00 -0500",
       "categories"  : "Tectonic",
-      "by"          : "Patrice F. Rey - BGH and Earthbyte Research Group, The University of Sydney, patrice.rey@sydney.edu.au",
-      "url"         : "/New_Public_Template/",
+      "by"          : "Tristan Salles",
+      "url"         : "/Flexure/",
       "icon"        : "globe",
-      "keywords"    : "",
-      "description" : {"url":"https://www.earthbyte.org/BGH_Wordpress/wp-content/uploads/2019/09/McClay_InternalCondition-1.png","description":"This suite of experiments is inspired by similar sandbox analog models from Kent McClay. Here, the aim is to develop an Underworld 2D template capable of matching the modelling outcomes of the best sandbox experiments. Our template represents a domain 144 km long and 36 km deep, the top 12 km of which is made of air-like material. There is 16 km of sedimentary rocks (pre-rift sequence) distributed over 10 layers, the top 10 are 1.5 km thick. Underneath, there is 8 km of stronger rocks (i.e. larger cohesion and coefficient of friction). We include a salt-like layer (constant density 2000 kg/m3, viscosity 1e19 Pa.s), either at the surface of the model, or within top section of the pre-rift sequence. The density of the sediments increases with depth either incrementaly or following a dependence on the confining pressure to simulate compaction. During extension, the progressive burial of the salt layer under sediments of increasing density results in a density inversion. In some models we impose a pseudo-isostatic condition at the base of the model, to maintain the lithostatic pressure constant. The wall to the right moves away at 2 cm/yr. To mimic sandbox kinematic boundary conditions, we i/ turn off the isostasy, ii/ impose a constant velocity at the base of the model, as well as on the vertical wall on the left where it meets with the lower basal layer, and iii/ we add a thin, low viscosity layer, to decouple the sedimentary sequence from the backstop and the bottom layer."},
-      "citation"    : "Patrice F. Rey, 2019:",
-      "contact"     : ""
+      "keywords"    : "Kinematics Sediment",
+      "description" : {"url":"https://www.earthbyte.org/BGH_Wordpress/wp-content/uploads/2020/07/flexure_setup.png","description":"This suite of experiments is inspired by similar sandbox analog models from Kent McClay. Here, the aim is to develop an Underworld 2D template capable of matching the modelling outcomes of the best sandbox experiments. Our template represents a domain 144 km long and 36 km deep, the top 12 km of which is made of air-like material. There is 16 km of sedimentary rocks (pre-rift sequence) distributed over 10 layers, the top 10 are 1.5 km thick. Underneath, there is 8 km of stronger rocks (i.e. larger cohesion and coefficient of friction). We include a salt-like layer (constant density 2000 kg/m3, viscosity 1e19 Pa.s), either at the surface of the model, or within top section of the pre-rift sequence. The density of the sediments increases with depth either incrementaly or following a dependence on the confining pressure to simulate compaction. During extension, the progressive burial of the salt layer under sediments of increasing density results in a density inversion. In some models we impose a pseudo-isostatic condition at the base of the model, to maintain the lithostatic pressure constant. The wall to the right moves away at 2 cm/yr. To mimic sandbox kinematic boundary conditions, we i/ turn off the isostasy, ii/ impose a constant velocity at the base of the model, as well as on the vertical wall on the left where it meets with the lower basal layer, and iii/ we add a thin, low viscosity layer, to decouple the sedimentary sequence from the backstop and the bottom layer."},
+      "citation"    : "",
+      "contact"     : "tristan.salles@sydney.edu.au"
 
     } ,
   
     {
-      "title"       : "New_private_template",
-      "date"        : "2020-05-15 00:00:00 -0500",
+      "title"       : "Basin",
+      "date"        : "2020-07-23 00:00:00 -0500",
       "categories"  : "Tectonic",
-      "by"          : "Patrice F. Rey - BGH and Earthbyte Research Group, The University of Sydney, patrice.rey@sydney.edu.au",
-      "url"         : "/New_Private_Template/",
+      "by"          : "Tristan Salles",
+      "url"         : "/Basin/",
       "icon"        : "globe",
-      "keywords"    : "",
+      "keywords"    : "Kinematics Sediment",
+      "description" : {"url":"https://www.earthbyte.org/BGH_Wordpress/wp-content/uploads/2020/07/Basin_setup.png","description":"This suite of experiments is inspired by similar sandbox analog models from Kent McClay. Here, the aim is to develop an Underworld 2D template capable of matching the modelling outcomes of the best sandbox experiments. Our template represents a domain 144 km long and 36 km deep, the top 12 km of which is made of air-like material. There is 16 km of sedimentary rocks (pre-rift sequence) distributed over 10 layers, the top 10 are 1.5 km thick. Underneath, there is 8 km of stronger rocks (i.e. larger cohesion and coefficient of friction). We include a salt-like layer (constant density 2000 kg/m3, viscosity 1e19 Pa.s), either at the surface of the model, or within top section of the pre-rift sequence. The density of the sediments increases with depth either incrementaly or following a dependence on the confining pressure to simulate compaction. During extension, the progressive burial of the salt layer under sediments of increasing density results in a density inversion. In some models we impose a pseudo-isostatic condition at the base of the model, to maintain the lithostatic pressure constant. The wall to the right moves away at 2 cm/yr. To mimic sandbox kinematic boundary conditions, we i/ turn off the isostasy, ii/ impose a constant velocity at the base of the model, as well as on the vertical wall on the left where it meets with the lower basal layer, and iii/ we add a thin, low viscosity layer, to decouple the sedimentary sequence from the backstop and the bottom layer."},
+      "citation"    : "",
+      "contact"     : "tristan.salles@sydney.edu.au"
+
+    } ,
+  
+    {
+      "title"       : "Test Public Map",
+      "date"        : "2020-06-19 00:00:00 -0500",
+      "categories"  : "Tectonic",
+      "by"          : "XYZ - BGH and Earthbyte Research Group, The University of Sydney",
+      "url"         : "/Test-public-map/",
+      "icon"        : "globe",
+      "keywords"    : "Kinematics Sediment",
       "description" : {"url":"https://www.earthbyte.org/BGH_Wordpress/wp-content/uploads/2019/09/McClay_InternalCondition-1.png","description":"This suite of experiments is inspired by similar sandbox analog models from Kent McClay. Here, the aim is to develop an Underworld 2D template capable of matching the modelling outcomes of the best sandbox experiments. Our template represents a domain 144 km long and 36 km deep, the top 12 km of which is made of air-like material. There is 16 km of sedimentary rocks (pre-rift sequence) distributed over 10 layers, the top 10 are 1.5 km thick. Underneath, there is 8 km of stronger rocks (i.e. larger cohesion and coefficient of friction). We include a salt-like layer (constant density 2000 kg/m3, viscosity 1e19 Pa.s), either at the surface of the model, or within top section of the pre-rift sequence. The density of the sediments increases with depth either incrementaly or following a dependence on the confining pressure to simulate compaction. During extension, the progressive burial of the salt layer under sediments of increasing density results in a density inversion. In some models we impose a pseudo-isostatic condition at the base of the model, to maintain the lithostatic pressure constant. The wall to the right moves away at 2 cm/yr. To mimic sandbox kinematic boundary conditions, we i/ turn off the isostasy, ii/ impose a constant velocity at the base of the model, as well as on the vertical wall on the left where it meets with the lower basal layer, and iii/ we add a thin, low viscosity layer, to decouple the sedimentary sequence from the backstop and the bottom layer."},
-      "citation"    : "Patrice F. Rey, 2019:",
-      "contact"     : ""
+      "citation"    : "https://doi.org/10.5281/zenodo.3892277 ",
+      "contact"     : "patrice.rey@sydney.edu.au"
 
     } ,
   
@@ -137,20 +151,6 @@
       "description" : {"url":"https://www.earthbyte.org/BGH_Wordpress/wp-content/uploads/2019/09/model-setup.jpg","description":"The thickness maps are input as burial displacement maps to simulate extension/subsidence history. The input maps are generated from the 3D realistic Petrel model.  This model is based on seismic interpretation of all the open file 3D and 2D seismic surveys and correlation of over 250 offshore wells and more than 1000 onshore wells or bores. The interpreted seismic surfaces and well data are used to create thickness maps between the main horizons (e.g. topography, mid Miocene, top Latrobe Group, base Tertiary, top Strzelecki Group, top Basement)."},
       "citation"    : "",
       "contact"     : "xuemei.yang@postgrad.curtin.edu.au ; gregory.c.smith@curtin.edu.au"
-
-    } ,
-  
-    {
-      "title"       : "Public Mcclay Style",
-      "date"        : "2019-09-18 00:00:00 -0500",
-      "categories"  : "Tectonic",
-      "by"          : "Patrice F. Rey - BGH and Earthbyte Research Group, The University of Sydney, patrice.rey@sydney.edu.au",
-      "url"         : "/Public-McClay-style/",
-      "icon"        : "globe",
-      "keywords"    : "",
-      "description" : {"url":"https://www.earthbyte.org/BGH_Wordpress/wp-content/uploads/2019/09/McClay_InternalCondition-1.png","description":"This suite of experiments is inspired by similar sandbox analog models from Kent McClay. Here, the aim is to develop an Underworld 2D template capable of matching the modelling outcomes of the best sandbox experiments. Our template represents a domain 144 km long and 36 km deep, the top 12 km of which is made of air-like material. There is 16 km of sedimentary rocks (pre-rift sequence) distributed over 10 layers, the top 10 are 1.5 km thick. Underneath, there is 8 km of stronger rocks (i.e. larger cohesion and coefficient of friction). We include a salt-like layer (constant density 2000 kg/m3, viscosity 1e19 Pa.s), either at the surface of the model, or within top section of the pre-rift sequence. The density of the sediments increases with depth either incrementaly or following a dependence on the confining pressure to simulate compaction. During extension, the progressive burial of the salt layer under sediments of increasing density results in a density inversion. In some models we impose a pseudo-isostatic condition at the base of the model, to maintain the lithostatic pressure constant. The wall to the right moves away at 2 cm/yr. To mimic sandbox kinematic boundary conditions, we i/ turn off the isostasy, ii/ impose a constant velocity at the base of the model, as well as on the vertical wall on the left where it meets with the lower basal layer, and iii/ we add a thin, low viscosity layer, to decouple the sedimentary sequence from the backstop and the bottom layer."},
-      "citation"    : "Patrice F. Rey, 2019:",
-      "contact"     : ""
 
     } ,
   

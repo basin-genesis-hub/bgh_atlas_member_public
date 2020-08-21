@@ -6,7 +6,15 @@ git config --global user.email "michael.chin@sydney.edu.au"
 cd member_backend
 touch Gemfile.lock
 chmod a+w Gemfile.lock
+
+mv _maps_template.html maps_template.html
+
 jekyll build
+
+mkdir _site/maps
+cp -f _site/maps_template/index.html _site/maps/index.html 
+mv maps_template.html _maps_template.html
+
 cd ..
 
 rm -f ./member_backend/_site/Gemfile.lock
@@ -24,8 +32,8 @@ git push origin
 cd ..
 
 cp -rf ./member_backend/_site/* ./member_frontend/
-cd ./member_frontend
 
+cd ./member_frontend
 apk add python
 python3 replace_html.py
 
@@ -35,6 +43,16 @@ git push origin
 cd ..
 
 cd ./public
+touch Gemfile.lock
+chmod a+w Gemfile.lock
+
+mv _maps_template.html maps_template.html
+jekyll build
+
+mkdir maps
+cp -f maps_template/index.html maps/index.html 
+mv maps_template.html _maps_template.html
+
 git add -A
 git commit --message "GitHub Action to update public website"
 git push origin
