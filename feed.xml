@@ -5,8 +5,8 @@
     <description>The Atlas is a top-level visual summary of end-member numerical models that the BGH is created.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 19 Aug 2020 06:27:15 -0500</pubDate>
-    <lastBuildDate>Wed, 19 Aug 2020 06:27:15 -0500</lastBuildDate>
+    <pubDate>Thu, 20 Aug 2020 22:32:03 -0500</pubDate>
+    <lastBuildDate>Thu, 20 Aug 2020 22:32:03 -0500</lastBuildDate>
     <generator>Jekyll v3.8.7</generator>
     
       <item>
@@ -75,6 +75,19 @@
       </item>
     
       <item>
+        <title>Test Public Map</title>
+        <description>
+</description>
+        <pubDate>Fri, 19 Jun 2020 00:00:00 -0500</pubDate>
+        <link>/Test-public-map/</link>
+        <guid isPermaLink="true">/Test-public-map/</guid>
+        
+        
+        <category>Tectonic</category>
+        
+      </item>
+    
+      <item>
         <title>Uncertainty Of Reconstructions By Plate Id</title>
         <description>
 </description>
@@ -123,19 +136,6 @@
         
         
         <category>surface processes</category>
-        
-      </item>
-    
-      <item>
-        <title>Gippsland Basin</title>
-        <description>
-</description>
-        <pubDate>Thu, 26 Sep 2019 00:00:00 -0500</pubDate>
-        <link>/Gippsland-Basin/</link>
-        <guid isPermaLink="true">/Gippsland-Basin/</guid>
-        
-        
-        <category>Depositional &amp; Tectonic</category>
         
       </item>
     
