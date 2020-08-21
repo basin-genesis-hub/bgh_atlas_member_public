@@ -5,9 +5,22 @@
     <description>The Atlas is a top-level visual summary of end-member numerical models that the BGH is created.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 21 Aug 2020 02:02:22 -0500</pubDate>
-    <lastBuildDate>Fri, 21 Aug 2020 02:02:22 -0500</lastBuildDate>
+    <pubDate>Fri, 21 Aug 2020 05:08:50 -0500</pubDate>
+    <lastBuildDate>Fri, 21 Aug 2020 05:08:50 -0500</lastBuildDate>
     <generator>Jekyll v3.8.7</generator>
+    
+      <item>
+        <title>Gulf Of Papua</title>
+        <description>
+</description>
+        <pubDate>Fri, 21 Aug 2020 00:00:00 -0500</pubDate>
+        <link>/gulf-of-papua/</link>
+        <guid isPermaLink="true">/gulf-of-papua/</guid>
+        
+        
+        <category>surface processes</category>
+        
+      </item>
     
       <item>
         <title>The Evolution Of The Great Artesian Basin</title>
@@ -23,12 +36,12 @@
       </item>
     
       <item>
-        <title>Papua New Guinea 2d Local Scale Model.md</title>
+        <title>Papua New Guinea 2d Local Scale Model</title>
         <description>
 </description>
         <pubDate>Wed, 19 Aug 2020 00:00:00 -0500</pubDate>
-        <link>/Papua-New-Guinea-2D-Local-scale-Model.md/</link>
-        <guid isPermaLink="true">/Papua-New-Guinea-2D-Local-scale-Model.md/</guid>
+        <link>/Papua-New-Guinea-2D-Local-scale-Model/</link>
+        <guid isPermaLink="true">/Papua-New-Guinea-2D-Local-scale-Model/</guid>
         
         
         <category>Tectonic</category>
@@ -120,19 +133,6 @@
         <pubDate>Fri, 08 Nov 2019 00:00:00 -0600</pubDate>
         <link>/S2S-StratigraphicModelling/</link>
         <guid isPermaLink="true">/S2S-StratigraphicModelling/</guid>
-        
-        
-        <category>Depositional</category>
-        
-      </item>
-    
-      <item>
-        <title>S2s Dyntopo</title>
-        <description>
-</description>
-        <pubDate>Fri, 08 Nov 2019 00:00:00 -0600</pubDate>
-        <link>/S2S-DynTopo/</link>
-        <guid isPermaLink="true">/S2S-DynTopo/</guid>
         
         
         <category>Depositional</category>
