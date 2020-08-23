@@ -5,20 +5,9 @@
     <description>The Atlas is a top-level visual summary of end-member numerical models that the BGH is created.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 22 Aug 2020 01:26:44 -0500</pubDate>
-    <lastBuildDate>Sat, 22 Aug 2020 01:26:44 -0500</lastBuildDate>
+    <pubDate>Sun, 23 Aug 2020 18:49:08 -0500</pubDate>
+    <lastBuildDate>Sun, 23 Aug 2020 18:49:08 -0500</lastBuildDate>
     <generator>Jekyll v3.8.7</generator>
-    
-      <item>
-        <title></title>
-        <description>
-</description>
-        <pubDate></pubDate>
-        <link>/2020-08-24-gulf-of-papua/</link>
-        <guid isPermaLink="true">/2020-08-24-gulf-of-papua/</guid>
-        
-        
-      </item>
     
       <item>
         <title>Papua New Guinea 2d Local Scale Model</title>
@@ -30,6 +19,17 @@
         
         
         <category>Tectonic</category>
+        
+      </item>
+    
+      <item>
+        <title></title>
+        <description>
+</description>
+        <pubDate></pubDate>
+        <link>/2020-08-21-gulf-of-papua/</link>
+        <guid isPermaLink="true">/2020-08-21-gulf-of-papua/</guid>
+        
         
       </item>
     
