@@ -5,8 +5,8 @@
     <description>The Atlas is a top-level visual summary of end-member numerical models that the BGH is created.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 23 Aug 2020 20:00:43 -0500</pubDate>
-    <lastBuildDate>Sun, 23 Aug 2020 20:00:43 -0500</lastBuildDate>
+    <pubDate>Sun, 23 Aug 2020 20:06:57 -0500</pubDate>
+    <lastBuildDate>Sun, 23 Aug 2020 20:06:57 -0500</lastBuildDate>
     <generator>Jekyll v3.8.7</generator>
     
       <item>
@@ -19,17 +19,6 @@
         
         
         <category>Tectonic</category>
-        
-      </item>
-    
-      <item>
-        <title></title>
-        <description>
-</description>
-        <pubDate></pubDate>
-        <link>/2020-08-21-gulf-of-papua/</link>
-        <guid isPermaLink="true">/2020-08-21-gulf-of-papua/</guid>
-        
         
       </item>
     
@@ -131,6 +120,19 @@
         <pubDate>Fri, 08 Nov 2019 00:00:00 -0600</pubDate>
         <link>/S2S-StratigraphicModelling/</link>
         <guid isPermaLink="true">/S2S-StratigraphicModelling/</guid>
+        
+        
+        <category>Depositional</category>
+        
+      </item>
+    
+      <item>
+        <title>S2s Dyntopo</title>
+        <description>
+</description>
+        <pubDate>Fri, 08 Nov 2019 00:00:00 -0600</pubDate>
+        <link>/S2S-DynTopo/</link>
+        <guid isPermaLink="true">/S2S-DynTopo/</guid>
         
         
         <category>Depositional</category>
