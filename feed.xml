@@ -5,12 +5,25 @@
     <description>The Atlas is a top-level visual summary of end-member numerical models that the BGH is created.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 20 Aug 2020 23:10:39 -0500</pubDate>
-    <lastBuildDate>Thu, 20 Aug 2020 23:10:39 -0500</lastBuildDate>
+    <pubDate>Sun, 23 Aug 2020 20:06:57 -0500</pubDate>
+    <lastBuildDate>Sun, 23 Aug 2020 20:06:57 -0500</lastBuildDate>
     <generator>Jekyll v3.8.7</generator>
     
       <item>
-        <title>The evolution of the great artesian basin</title>
+        <title>Papua New Guinea 2d Local Scale Model</title>
+        <description>
+</description>
+        <pubDate>Mon, 24 Aug 2020 00:00:00 -0500</pubDate>
+        <link>/Papua-New-Guinea-2D-Local-scale-Model/</link>
+        <guid isPermaLink="true">/Papua-New-Guinea-2D-Local-scale-Model/</guid>
+        
+        
+        <category>Tectonic</category>
+        
+      </item>
+    
+      <item>
+        <title>The Evolution Of The Great Artesian Basin</title>
         <description>
 </description>
         <pubDate>Wed, 19 Aug 2020 00:00:00 -0500</pubDate>
@@ -18,7 +31,7 @@
         <guid isPermaLink="true">/The-evolution-of-the-Great-Artesian-Basin/</guid>
         
         
-        <category>Tectonic</category>
+        <category>Coupled</category>
         
       </item>
     
@@ -123,19 +136,6 @@
         
         
         <category>Depositional</category>
-        
-      </item>
-    
-      <item>
-        <title>Gulf Of Papua</title>
-        <description>
-</description>
-        <pubDate>Tue, 29 Oct 2019 00:00:00 -0500</pubDate>
-        <link>/gulf-of-papua/</link>
-        <guid isPermaLink="true">/gulf-of-papua/</guid>
-        
-        
-        <category>surface processes</category>
         
       </item>
     
