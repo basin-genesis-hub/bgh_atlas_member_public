@@ -1,16 +1,16 @@
 [
   
     {
-      "title"       : "North Slope Of Alaska 120 Ma",
-      "date"        : "2020-09-02 00:00:00 -0500",
-      "categories"  : "Coupled",
-      "by"          : "Cian Clinton-Gray, Sabin Zahirovic, Claire Mallard, Tristan Salles, Daniela Garrad",
-      "url"         : "/North-Slope-of-Alaska-120-Ma/",
-      "icon"        : "globe",
-      "keywords"    : "North Slope of Alaska, sediment dispersal, tectonic evolution",
-      "description" : {"url":"","description":"The model incorporates time-dependent dynamic topography estimates from numerical models linking plate motions (Müller et al. 2019) and mantle flow (Zhong et al. 2008). Additionally, a series of temporally and spatially evolving tectonic events that represent the tectonic topography that results from rifting and collisions were constructed as polygons in GPlates and incorperated as boundary conditions. The Haq et al. (1987) short-term sea-level curve was used."},
+      "title"       : "",
+      "date"        : "",
+      "categories"  : "",
+      "by"          : "",
+      "url"         : "/2020-09-2-North-Slope-of-Alaska-120-Ma/",
+      "icon"        : "",
+      "keywords"    : "",
+      "description" : null,
       "citation"    : "",
-      "contact"     : "ccli8482@uni.sydney.edu.au"
+      "contact"     : ""
 
     } ,
   
