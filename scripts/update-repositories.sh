@@ -49,8 +49,8 @@ chmod a+w Gemfile.lock
 mv _maps_template.html maps_template.html
 jekyll build
 
-mkdir maps
-cp -f maps_template/index.html maps/index.html 
+mkdir _site/maps
+cp -f _site/maps_template/index.html _site/maps/index.html 
 mv maps_template.html _maps_template.html
 
 git add -A
