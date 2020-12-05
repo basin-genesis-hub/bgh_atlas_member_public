@@ -278,6 +278,20 @@
       "citation"    : "https://www.nature.com/articles/nature13033",
       "contact"     : ""
 
+    } ,
+  
+    {
+      "title"       : "Mantle Flow Australia Jurassic",
+      "date"        : "2017-01-03 00:00:00 -0600",
+      "categories"  : "Tectonic",
+      "by"          : "Tristan Salles",
+      "url"         : "/Mantle-flow-Australia-Jurassic/",
+      "icon"        : "globe",
+      "keywords"    : "Drainage Australia Jurassic",
+      "description" : {"url":"https://www.earthbyte.org/BGH_Wordpress/wp-content/uploads/2020/12/Screen-Shot-2020-12-06-at-10.19.25-am.png","description":"(a and b) Modeling the evolution of Australian precipitation over the last 150 Myr based on the latitudinal position of the continent obtained from the solid Earth model and 50 years longitudinal averaged precipitation modeled by NOAA/GFDL CM2.1 for the southern hemisphere [Delworth et al., 2006]. Past values of precipitation are deduced from the past latitude of the dark circle shown in (a) and the precipitation model shown in (b). In (a), reconstructed coastlines are shown in black, subduction zones in blue with triangles on the over-riding plate, mid-ocean ridges and transform faults in red and deforming areas in gray. (c) Long-term sea level fluctuations relative to present-day [Haq et al., 1987]."},
+      "citation"    : "doi:10.1002/2016GC006617",
+      "contact"     : "tristan.salles@sydney.edu.au"
+
     } 
   
 ]
