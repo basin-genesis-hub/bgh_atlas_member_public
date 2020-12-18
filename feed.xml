@@ -5,8 +5,8 @@
     <description>The Atlas is a top-level visual summary of end-member numerical models that the BGH is created.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 14 Dec 2020 18:22:29 -0600</pubDate>
-    <lastBuildDate>Mon, 14 Dec 2020 18:22:29 -0600</lastBuildDate>
+    <pubDate>Thu, 17 Dec 2020 21:26:58 -0600</pubDate>
+    <lastBuildDate>Thu, 17 Dec 2020 21:26:58 -0600</lastBuildDate>
     <generator>Jekyll v3.8.7</generator>
     
       <item>
@@ -114,19 +114,6 @@
       </item>
     
       <item>
-        <title>Test Public Map</title>
-        <description>
-</description>
-        <pubDate>Fri, 19 Jun 2020 00:00:00 -0500</pubDate>
-        <link>/Test-public-map/</link>
-        <guid isPermaLink="true">/Test-public-map/</guid>
-        
-        
-        <category>Tectonic</category>
-        
-      </item>
-    
-      <item>
         <title>Uncertainty Of Reconstructions By Plate Id</title>
         <description>
 </description>
@@ -136,6 +123,19 @@
         
         
         <category>surface processes</category>
+        
+      </item>
+    
+      <item>
+        <title>Badlandscitcomstemplate</title>
+        <description>
+</description>
+        <pubDate>Wed, 18 Dec 2019 00:00:00 -0600</pubDate>
+        <link>/BadlandsCitcomsTemplate/</link>
+        <guid isPermaLink="true">/BadlandsCitcomsTemplate/</guid>
+        
+        
+        <category>Coupled</category>
         
       </item>
     
