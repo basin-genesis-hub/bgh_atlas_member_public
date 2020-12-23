@@ -5,9 +5,22 @@
     <description>The Atlas is a top-level visual summary of end-member numerical models that the BGH is created.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 22 Dec 2020 20:20:32 -0600</pubDate>
-    <lastBuildDate>Tue, 22 Dec 2020 20:20:32 -0600</lastBuildDate>
+    <pubDate>Tue, 22 Dec 2020 20:25:21 -0600</pubDate>
+    <lastBuildDate>Tue, 22 Dec 2020 20:25:21 -0600</lastBuildDate>
     <generator>Jekyll v3.8.7</generator>
+    
+      <item>
+        <title>Gulf Of Papua Rock Tracking</title>
+        <description>
+</description>
+        <pubDate>Wed, 23 Dec 2020 00:00:00 -0600</pubDate>
+        <link>/Gulf-of-Papua-rock-tracking/</link>
+        <guid isPermaLink="true">/Gulf-of-Papua-rock-tracking/</guid>
+        
+        
+        <category>Depositional</category>
+        
+      </item>
     
       <item>
         <title>The Evolution Of The Great Barrier Reef</title>
@@ -123,19 +136,6 @@
         
         
         <category>surface processes</category>
-        
-      </item>
-    
-      <item>
-        <title>S2s Stratigraphicmodelling</title>
-        <description>
-</description>
-        <pubDate>Fri, 08 Nov 2019 00:00:00 -0600</pubDate>
-        <link>/S2S-StratigraphicModelling/</link>
-        <guid isPermaLink="true">/S2S-StratigraphicModelling/</guid>
-        
-        
-        <category>Depositional</category>
         
       </item>
     
