@@ -15,6 +15,20 @@
     } ,
   
     {
+      "title"       : "Evolution Of The Nile River",
+      "date"        : "2020-12-18 00:00:00 -0600",
+      "categories"  : "Depositional",
+      "by"          : "Christopher Alfonso, Tristan Salles, Claire Mallard, Sabin Zahirovic - BGH and EarthByte Research Group, The University of Sydney",
+      "url"         : "/Evolution-of-the-Nile-River/",
+      "icon"        : "globe",
+      "keywords"    : "Nile Dynamic Topography",
+      "description" : {"url":"https://raw.githubusercontent.com/cpalfonso/Nile-honours/main/inputs/fig.png","description":"This is a sample of the Badlands landscape evolution models created for the Honours thesis of Christopher Alfonso (2020). These experiments were designed to test the possible impact of different dynamic topography scenarios on the evolution of the Nile River and Delta, as raised by Faccenna et al. (2019; Nature Geoscience, v. 12, no. 12, p. 1012-1017). The tested dynamic topography scenarios were obtained from Hassan et al. (2015; G-Cubed, v. 16, no. 5, p. 1465-1489) and Hassan et al. (2020; Geoscience Frontiers, v. 11, no. 5, p. 1669-1680). The landscape evolution models encompassed the northeast corner of Africa, including the Arabian Peninsula, and covered the past 40 Myr."},
+      "citation"    : "https://doi.org/10.5281/zenodo.4321852",
+      "contact"     : "[&quot;calf6244@uni.sydney.edu.au&quot;, &quot;tristan.salles@sydney.edu.au&quot;, &quot;claire.mallard@sydney.edu.au&quot;, &quot;sabin.zahirovic@sydney.edu.au&quot;]"
+
+    } ,
+  
+    {
       "title"       : "The Evolution Of The Great Barrier Reef",
       "date"        : "2020-10-30 00:00:00 -0500",
       "categories"  : "Depositional",

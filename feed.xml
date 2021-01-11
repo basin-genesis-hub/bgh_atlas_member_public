@@ -5,8 +5,8 @@
     <description>The Atlas is a top-level visual summary of end-member numerical models that the BGH is created.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 22 Dec 2020 20:50:09 -0600</pubDate>
-    <lastBuildDate>Tue, 22 Dec 2020 20:50:09 -0600</lastBuildDate>
+    <pubDate>Sun, 10 Jan 2021 19:02:31 -0600</pubDate>
+    <lastBuildDate>Sun, 10 Jan 2021 19:02:31 -0600</lastBuildDate>
     <generator>Jekyll v3.8.7</generator>
     
       <item>
@@ -16,6 +16,19 @@
         <pubDate>Wed, 23 Dec 2020 00:00:00 -0600</pubDate>
         <link>/Gulf-of-Papua-rock-tracking/</link>
         <guid isPermaLink="true">/Gulf-of-Papua-rock-tracking/</guid>
+        
+        
+        <category>Depositional</category>
+        
+      </item>
+    
+      <item>
+        <title>Evolution Of The Nile River</title>
+        <description>
+</description>
+        <pubDate>Fri, 18 Dec 2020 00:00:00 -0600</pubDate>
+        <link>/Evolution-of-the-Nile-River/</link>
+        <guid isPermaLink="true">/Evolution-of-the-Nile-River/</guid>
         
         
         <category>Depositional</category>
@@ -123,19 +136,6 @@
         
         
         <category>Tectonic</category>
-        
-      </item>
-    
-      <item>
-        <title>Uncertainty Of Reconstructions By Plate Id</title>
-        <description>
-</description>
-        <pubDate>Wed, 22 Jan 2020 00:00:00 -0600</pubDate>
-        <link>/Uncertainty-of-Reconstructions-by-Plate-ID/</link>
-        <guid isPermaLink="true">/Uncertainty-of-Reconstructions-by-Plate-ID/</guid>
-        
-        
-        <category>surface processes</category>
         
       </item>
     
