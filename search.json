@@ -29,6 +29,20 @@
     } ,
   
     {
+      "title"       : "Norwegian Margin 70 Ma",
+      "date"        : "2020-12-14 00:00:00 -0600",
+      "categories"  : "Depositional",
+      "by"          : "Yu Sum Chan, Claire Mallard, Sabin Zahirovic, Tristan Salles, Jakob Skogseid, John-Are Hansen et al.",
+      "url"         : "/Norwegian-Margin-70-Ma/",
+      "icon"        : "globe",
+      "keywords"    : "Norwegian margin, Iceland Plume, sediment dispersal, tectonic evolution",
+      "description" : {"url":"https://www.earthbyte.org/BGH_Wordpress/wp-content/uploads/2020/12/Norwegian_Setup.png","description":"The initial topography is approximated by subtracting horizontal and vertical displacements (including dynamic topography and tectonics) from the present-day topography. The Miller et al. (2005) short term sea-level curve with a Cretaceous section from Haq (2014) is applied to the simulation. Lithospheric flexure is also taken into account. A) the present-day topography, B) the paleo-topography at 70 Ma, C) present-day precipitation rates and D) the timing of plume impingement and amplitude of dynamic topography experienced in the Norwegian continental and passive margins of the Barnett-Moore et al. (2017) dynamic topography and the Hybrid dynamic topography."},
+      "citation"    : "",
+      "contact"     : "ycha2152@uni.sydney.edu.au"
+
+    } ,
+  
+    {
       "title"       : "The Evolution Of The Great Barrier Reef",
       "date"        : "2020-10-30 00:00:00 -0500",
       "categories"  : "Depositional",

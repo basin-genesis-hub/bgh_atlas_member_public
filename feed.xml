@@ -5,8 +5,8 @@
     <description>The Atlas is a top-level visual summary of end-member numerical models that the BGH is created.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 17 Jan 2021 23:41:51 -0600</pubDate>
-    <lastBuildDate>Sun, 17 Jan 2021 23:41:51 -0600</lastBuildDate>
+    <pubDate>Sun, 24 Jan 2021 17:23:15 -0600</pubDate>
+    <lastBuildDate>Sun, 24 Jan 2021 17:23:15 -0600</lastBuildDate>
     <generator>Jekyll v3.8.7</generator>
     
       <item>
@@ -29,6 +29,19 @@
         <pubDate>Fri, 18 Dec 2020 00:00:00 -0600</pubDate>
         <link>/Evolution-of-the-Nile-River/</link>
         <guid isPermaLink="true">/Evolution-of-the-Nile-River/</guid>
+        
+        
+        <category>Depositional</category>
+        
+      </item>
+    
+      <item>
+        <title>Norwegian Margin 70 Ma</title>
+        <description>
+</description>
+        <pubDate>Mon, 14 Dec 2020 00:00:00 -0600</pubDate>
+        <link>/Norwegian-Margin-70-Ma/</link>
+        <guid isPermaLink="true">/Norwegian-Margin-70-Ma/</guid>
         
         
         <category>Depositional</category>
@@ -120,19 +133,6 @@
         <pubDate>Thu, 23 Jul 2020 00:00:00 -0500</pubDate>
         <link>/Flexure/</link>
         <guid isPermaLink="true">/Flexure/</guid>
-        
-        
-        <category>Tectonic</category>
-        
-      </item>
-    
-      <item>
-        <title>Basin</title>
-        <description>
-</description>
-        <pubDate>Thu, 23 Jul 2020 00:00:00 -0500</pubDate>
-        <link>/Basin/</link>
-        <guid isPermaLink="true">/Basin/</guid>
         
         
         <category>Tectonic</category>
