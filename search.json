@@ -155,6 +155,20 @@
     } ,
   
     {
+      "title"       : "Oblique Rifting 3d",
+      "date"        : "2020-01-25 00:00:00 -0600",
+      "categories"  : "Coupled",
+      "by"          : "Claire Mallard, Yu Sum Chan, Tristan Salles, Romain Beucher",
+      "url"         : "/oblique-rifting-3D/",
+      "icon"        : "globe",
+      "keywords"    : "Oblique rifting, sedimentation",
+      "description" : {"url":"https://www.earthbyte.org/BGH_Wordpress/wp-content/uploads/2021/01/ObliqueRift_setup-2.png","description":"(bottom) showing the location of the imposed fault zone in the model."},
+      "citation"    : "",
+      "contact"     : "ycha2152@uni.sydney.edu.au"
+
+    } ,
+  
+    {
       "title"       : "Uncertainty Of Reconstructions By Plate Id",
       "date"        : "2020-01-22 00:00:00 -0600",
       "categories"  : "surface processes",
