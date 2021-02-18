@@ -29,11 +29,11 @@
     } ,
   
     {
-      "title"       : "Obliquity_sealevel_changes",
+      "title"       : "Obliquity Sealevel Changes",
       "date"        : "2020-12-14 00:00:00 -0600",
       "categories"  : "Coupled",
       "by"          : "Claire Mallard, Romain Beucher, Tristan Salles, Patrice Rey",
-      "url"         : "/Obliquity_SeaLevel_changes/",
+      "url"         : "/Obliquity-SeaLevel-changes/",
       "icon"        : "globe",
       "keywords"    : "Oblique rifting, sedimentation",
       "description" : null,
@@ -179,20 +179,6 @@
       "description" : {"url":"https://www.earthbyte.org/BGH_Wordpress/wp-content/uploads/2020/07/Basin_setup.png","description":"In this model the initial grid is a depression surface scaled by 30 km by 30 km with a resolution of 100 m. The elevation ranges from -100 m to 300 m. This case runs for 1000k years with an output interval of 10k year."},
       "citation"    : "",
       "contact"     : "tristan.salles@sydney.edu.au"
-
-    } ,
-  
-    {
-      "title"       : "Oblique Rifting 3d",
-      "date"        : "2020-01-25 00:00:00 -0600",
-      "categories"  : "Coupled",
-      "by"          : "Claire Mallard, Yu Sum Chan, Tristan Salles, Romain Beucher",
-      "url"         : "/oblique-rifting-3D/",
-      "icon"        : "globe",
-      "keywords"    : "Oblique rifting, sedimentation",
-      "description" : {"url":"https://www.earthbyte.org/BGH_Wordpress/wp-content/uploads/2021/01/ObliqueRift_setup-2.png","description":"(bottom) showing the location of the imposed fault zone in the model."},
-      "citation"    : "",
-      "contact"     : "ycha2152@uni.sydney.edu.au"
 
     } ,
   
