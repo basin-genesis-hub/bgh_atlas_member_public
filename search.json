@@ -29,6 +29,20 @@
     } ,
   
     {
+      "title"       : "Obliquity_sealevel_changes",
+      "date"        : "2020-12-14 00:00:00 -0600",
+      "categories"  : "Coupled",
+      "by"          : "Claire Mallard, Romain Beucher, Tristan Salles, Patrice Rey",
+      "url"         : "/Obliquity_SeaLevel_changes/",
+      "icon"        : "globe",
+      "keywords"    : "Oblique rifting, sedimentation",
+      "description" : null,
+      "citation"    : "",
+      "contact"     : "claire.mallard@sydney.edu.au"
+
+    } ,
+  
+    {
       "title"       : "Norwegian Margin 70 Ma",
       "date"        : "2020-12-14 00:00:00 -0600",
       "categories"  : "Depositional",
@@ -39,6 +53,20 @@
       "description" : {"url":"https://www.earthbyte.org/BGH_Wordpress/wp-content/uploads/2020/12/Norwegian_Setup.png","description":"The initial topography is approximated by subtracting horizontal and vertical displacements (including dynamic topography and tectonics) from the present-day topography. The Miller et al. (2005) short term sea-level curve with a Cretaceous section from Haq (2014) is applied to the simulation. Lithospheric flexure is also taken into account. A) the present-day topography, B) the paleo-topography at 70 Ma, C) present-day precipitation rates and D) the timing of plume impingement and amplitude of dynamic topography experienced in the Norwegian continental and passive margins of the Barnett-Moore et al. (2017) dynamic topography and the Hybrid dynamic topography."},
       "citation"    : "",
       "contact"     : "ycha2152@uni.sydney.edu.au"
+
+    } ,
+  
+    {
+      "title"       : "Influence Sedimentation On Deformation",
+      "date"        : "2020-12-14 00:00:00 -0600",
+      "categories"  : "Coupled",
+      "by"          : "Claire Mallard, Tristan Salles, Romain Beucher, Julian Giordani",
+      "url"         : "/Influence-sedimentation-on-deformation/",
+      "icon"        : "globe",
+      "keywords"    : "Continental margin, sedimentation, deformation",
+      "description" : null,
+      "citation"    : "",
+      "contact"     : "claire.mallard@sydney.edu.au"
 
     } ,
   
@@ -319,6 +347,20 @@
       "description" : {"url":"https://www.earthbyte.org/BGH_Wordpress/wp-content/uploads/2019/07/Moresi__et_al_2014_setup.jpg","description":"Initial geometry of the distinct material domains in the numerical model, not to scale. The subducting plate is 100km thick, 3,000kmwide and 7,000kmin length, and is built from 4 layers. The overriding plate has three domains: a back-arc region (1,200 km) a transitional region (350 km) and a continental backstop (750 km), each of which comprises two layers of equal thickness. The indenting ribbon is 50km in thickness, 1,500km wide and 500km deep (perpendicular to the convergence direction). Each of the vertical boundaries is a symmetry plane."},
       "citation"    : "https://www.nature.com/articles/nature13033",
       "contact"     : ""
+
+    } ,
+  
+    {
+      "title"       : "Oblique Rifting 3d",
+      "date"        : "2019-03-01 00:00:00 -0600",
+      "categories"  : "Coupled",
+      "by"          : "Claire Mallard, Yu Sum Chan, Tristan Salles, Romain Beucher",
+      "url"         : "/oblique-rifting-3D/",
+      "icon"        : "globe",
+      "keywords"    : "Oblique rifting, sedimentation",
+      "description" : {"url":"https://www.earthbyte.org/BGH_Wordpress/wp-content/uploads/2021/01/ObliqueRift_setup-2.png","description":"(bottom) showing the location of the imposed fault zone in the model."},
+      "citation"    : "",
+      "contact"     : "ycha2152@uni.sydney.edu.au"
 
     } ,
   

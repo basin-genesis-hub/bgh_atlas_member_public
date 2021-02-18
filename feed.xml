@@ -5,8 +5,8 @@
     <description>The Atlas is a top-level visual summary of end-member numerical models that the BGH is created.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 17 Feb 2021 23:14:18 -0600</pubDate>
-    <lastBuildDate>Wed, 17 Feb 2021 23:14:18 -0600</lastBuildDate>
+    <pubDate>Wed, 17 Feb 2021 23:28:00 -0600</pubDate>
+    <lastBuildDate>Wed, 17 Feb 2021 23:28:00 -0600</lastBuildDate>
     <generator>Jekyll v3.8.7</generator>
     
       <item>
@@ -36,6 +36,19 @@
       </item>
     
       <item>
+        <title>Obliquity_sealevel_changes</title>
+        <description>
+</description>
+        <pubDate>Mon, 14 Dec 2020 00:00:00 -0600</pubDate>
+        <link>/Obliquity_SeaLevel_changes/</link>
+        <guid isPermaLink="true">/Obliquity_SeaLevel_changes/</guid>
+        
+        
+        <category>Coupled</category>
+        
+      </item>
+    
+      <item>
         <title>Norwegian Margin 70 Ma</title>
         <description>
 </description>
@@ -45,6 +58,19 @@
         
         
         <category>Depositional</category>
+        
+      </item>
+    
+      <item>
+        <title>Influence Sedimentation On Deformation</title>
+        <description>
+</description>
+        <pubDate>Mon, 14 Dec 2020 00:00:00 -0600</pubDate>
+        <link>/Influence-sedimentation-on-deformation/</link>
+        <guid isPermaLink="true">/Influence-sedimentation-on-deformation/</guid>
+        
+        
+        <category>Coupled</category>
         
       </item>
     
@@ -107,32 +133,6 @@
         <pubDate>Thu, 23 Jul 2020 00:00:00 -0500</pubDate>
         <link>/Strike-Slip/</link>
         <guid isPermaLink="true">/Strike-Slip/</guid>
-        
-        
-        <category>Tectonic</category>
-        
-      </item>
-    
-      <item>
-        <title>Rift</title>
-        <description>
-</description>
-        <pubDate>Thu, 23 Jul 2020 00:00:00 -0500</pubDate>
-        <link>/Rift/</link>
-        <guid isPermaLink="true">/Rift/</guid>
-        
-        
-        <category>Tectonic</category>
-        
-      </item>
-    
-      <item>
-        <title>Flexure</title>
-        <description>
-</description>
-        <pubDate>Thu, 23 Jul 2020 00:00:00 -0500</pubDate>
-        <link>/Flexure/</link>
-        <guid isPermaLink="true">/Flexure/</guid>
         
         
         <category>Tectonic</category>
